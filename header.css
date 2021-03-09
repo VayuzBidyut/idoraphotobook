@@ -1,0 +1,48 @@
+#top-bar1 {
+    background-color: #5b2c8a;
+}
+#top-bar2 {
+    background-color: #f5f5f5;
+}
+#headerbar2 {
+    background-color: hsl(0deg 0% 86%);
+}
+span.field-icon {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 1.5rem;
+  top: 2.8rem;
+  z-index: 2;
+}
+
+.mb-0.py-2.text-center.text-md-left.top-bar1 {
+    color: #fff
+}
+.testimonial {
+    background-color: #eaeaea;
+}
+.search input[type=text]{ 
+	width:200px; 
+	height:25px; 
+	border-radius:25px; 
+	border: none; 
+} 
+.search{ 
+	float:right; 
+	margin:7px;
+} 
+.search button{ 
+	background-color: hsl(0deg 0% 86%); 
+	color: #f2f2f2; 
+	float: right; 
+	padding: 5px 10px; 
+	margin-right: 16px; 
+	font-size: 12px; 
+	border: none; 
+	cursor: pointer; 
+} 
+.menu-link.active {
+    background-color: #5b2c8a;
+    color: white;
+}
