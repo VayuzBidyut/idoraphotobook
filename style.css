@@ -52,7 +52,7 @@ ul {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 a {
@@ -88,7 +88,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 h5,
@@ -168,7 +168,7 @@ ul {
 }
 
 small {
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 @media (max-width:1200px) {
@@ -387,11 +387,11 @@ span.middot {
 }
 
 .font-body {
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .font-primary {
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .font-secondary {
@@ -3006,7 +3006,7 @@ html[xmlns] .slider-wrap {
 
 #logo a {
 	color: #000;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	font-size: 36px
 }
 
@@ -3212,7 +3212,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     font-weight: 500;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    font-family: Poppins, sans-serif;
+    font-family: MyriadPro, sans-serif;
 }
 
 .menu-link span {
@@ -3254,7 +3254,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	font-weight: 400;
 	color: #666;
 	letter-spacing: 0;
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .sub-menu-container .menu-item:hover>.menu-link {
@@ -3633,7 +3633,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	.mega-menu-style-2 .mega-menu-title>.menu-link {
 		font-size: .8125rem;
 		font-weight: 700;
-		font-family: Poppins, sans-serif;
+		font-family: MyriadPro, sans-serif;
 		letter-spacing: 1px;
 		text-transform: uppercase!important;
 		margin-bottom: 15px;
@@ -4279,7 +4279,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	color: #333;
 	font-weight: 700;
 	margin-top: 0!important;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	letter-spacing: 2px
 }
 
@@ -5992,9 +5992,9 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	background-color: #fff
 }
 
-#content p {
+/*#content p {
 	line-height: 1.8
-}
+}*/
 
 .content-wrap {
 	position: relative;
@@ -6982,7 +6982,7 @@ body:not(.device-touch) .portfolio {
 	padding: 30px 0;
 	text-align: center;
 	color: #444;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 1.5rem;
@@ -7146,7 +7146,7 @@ body:not(.device-touch) .entry-link {
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 @media (min-width:992px) {
@@ -8205,7 +8205,7 @@ body:not(.device-touch) .button {
 	font-size: 1.25rem;
 	height: auto;
 	line-height: 1;
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .button.button-desc span {
@@ -9002,7 +9002,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-content h3 {
 	font-size: 1rem;
 	font-weight: 600;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	color: #333
@@ -9274,7 +9274,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .fbox-center.fbox-italic p {
 	font-style: italic;
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .fbox-bg.fbox-center {
@@ -11078,7 +11078,7 @@ body:not(.device-touch) .social-icon i {
 .tab-nav-lg li a {
 	display: inline-block;
 	color: #444;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -11920,7 +11920,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 .counter {
 	font-size: 42px;
 	font-weight: 600;
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .counter.counter-small {
@@ -12051,7 +12051,7 @@ body:not(.device-touch) .rounded-skill {
 
 .skills li .progress-percent .counter {
 	font-weight: 400;
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .progress-percent::after,
@@ -12820,7 +12820,7 @@ label {
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 400;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #555;
@@ -14265,7 +14265,7 @@ body:not(.device-touch) .tagcloud a {
 .widget-filter-links li a {
 	display: block;
 	color: #444;
-	font-family: Poppins, sans-serif;
+	font-family: MyriadPro, sans-serif;
 	font-weight: 500
 }
 
@@ -14324,7 +14324,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 13px;
 	font-weight: 700;
 	letter-spacing: 2px;
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .nav-tree li i {
@@ -14363,7 +14363,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 12px;
 	padding: 6px 0;
 	letter-spacing: 1px;
-	font-family: Lato, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .nav-tree ul ul a i.icon-angle-down {
@@ -14391,7 +14391,7 @@ body:not(.device-touch) .tagcloud a {
 	line-height: 1;
 	font-size: 80px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .15);
-	font-family: Poppins, sans-serif
+	font-family: MyriadPro, sans-serif
 }
 
 .wedding-head .and,
@@ -16396,13 +16396,47 @@ label.radio {
 }
 
 
+/*Common CSS*/
 
+.line-height-1-2{
+	line-height: 1.2
+}
+
+.font-size-20{
+	font-size: 20px;
+	line-height: 1.3
+}
+
+.font-size-50 {
+	font-size: 50px
+}
+.font-size-40 {
+	font-size: 40px
+}
+.font-weight-400{
+	font-weight: 400
+}
+
+
+
+.border-radius-5{
+	border-radius: 5px
+}
 
 /*Text color*/
 
 .text-purple{
 	color:#5d418a;
 }
+
+.text-black{
+	color:#000;
+}
+.text-red{
+	color: #f80802
+}
+
+
 
 
 
@@ -16439,7 +16473,52 @@ label.radio {
 		}
 		.section-1-text{
 			background-color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: -7px 7px #5e418a;
+		    padding: 20px;
+		    border-radius: 5px;
+		    box-shadow: -10px 10px #5e418a;
+		    font-weight: 300;
 		}
+		.section-1{
+			background-color: #d6cae2;
+			border-radius: 5px;
+			padding:10px;
+		}
+		.section-1-headng{
+			margin-bottom: 0px; 
+			font-weight: 400; 
+			color: #fff;    
+			font-size: 60px;
+			line-height: 1.2;
+		}
+.shop-section{
+	border-radius: 5px 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #dcdcdc;
+    z-index: +99;
+    position: relative;
+}
+.shop-section img{
+	border-radius: 5px
+} 
+.shop-button{
+	background-color: #018ec6; border-radius: 0 0 5px 5px;
+	margin-top: -3px;
+	padding: 5px
+}
+
+.testi-stars i{
+font-size:30px;
+color:gold;
+}
+
+
+/*footer css*/
+
+#footer .social-icon {
+margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    line-height: 30px!important;
+}
