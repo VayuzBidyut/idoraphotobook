@@ -26,10 +26,6 @@
 	<title>Join | Idora PhotoBook</title>
 
 <style>
-#top-bar {
-    background-color: #f5f5f5;
-}
-
 span.field-icon {
   position: absolute;
   display: inline-block;
@@ -49,16 +45,11 @@ span.field-icon {
 
 		<!-- Top Bar
 		============================================= -->
-		<div id="top-bar">
+		<div id="top-bar1">
 			<div class="container">
-			
-				<div class="row justify-content-between align-items-center">
-					<div class="col-12 col-md-auto">
-						<p class="mb-0 py-2 text-center text-md-left"><strong>Enjoy up to 50% Off Sitewide!</strong> Code <strong>GIFT21</strong> Ends: 02/24 <a href="#"><u>Details</u></a></p>
-					</div>
-					<div class="col-12 col-md-auto">
-						<p class="mb-0 py-2 text-center text-md-left"><a href="#">Get inspired by our NEW photo book designs »</a></p>
-
+				<div class="row">
+					<div class="col-sm-24 mx-auto">
+						<p class="mb-0 py-2 text-center text-md-left top-bar1"><strong>APPLIED  IDORA50  Welcome: up to 50% off!</p>
 					</div>
 				</div>
 
@@ -67,7 +58,7 @@ span.field-icon {
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header">
+		<header id="header" class="header">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -84,7 +75,7 @@ span.field-icon {
 							<!-- Top Cart
 							============================================= -->
 							<div id="top-cart" class="header-misc-icon d-none d-sm-block">
-								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
+								<a href="#" id="top-cart-trigger"><i class="icon-line-shopping-cart"></i><span class="top-cart-number">5</span></a>
 								<div class="top-cart-content">
 									<div class="top-cart-title">
 										<h4>Shopping Cart</h4>
@@ -124,32 +115,35 @@ span.field-icon {
 
 							<!-- Top Search
 							============================================= -->
-							<div id="top-search" class="header-misc-icon">
+							<!-- <div id="top-search" class="header-misc-icon">
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
+							</div> --><!-- #top-search end -->
 
 						</div>
 					<!--#social-media-button-starts-->
-					<a href="#" class="social-icon si-colored si-rounded si-small si-facebook">
-						<i class="icon-facebook"></i>
-						<i class="icon-facebook"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-youtube">
-						<i class="icon-youtube"></i>
-						<i class="icon-youtube"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-instagram">
-						<i class="icon-instagram"></i>
-						<i class="icon-instagram"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-pinterest">
-						<i class="icon-pinterest"></i>
-						<i class="icon-pinterest"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-twitter">
-						<i class="icon-twitter"></i>
-						<i class="icon-twitter"></i>
-					</a>
+					<div class="social-header">
+						<a href="#" class="social-icon si-colored si-rounded si-small si-facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-youtube">
+							<i class="icon-youtube"></i>
+							<i class="icon-youtube"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-instagram">
+							<i class="icon-instagram"></i>
+							<i class="icon-instagram"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-pinterest">
+							<i class="icon-pinterest"></i>
+							<i class="icon-pinterest"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+					</div>
+					
 					<!--#social-media-button-ends-->
 						<div id="primary-menu-trigger">
 							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
@@ -161,7 +155,7 @@ span.field-icon {
 
 							<ul class="menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="#"><div>My Projects</div></a>
+									<a class="menu-link" href="#"><div class="text-purple">My Projects</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item">
 											<a class="menu-link" href="#"><div>Wedding</div></a>
@@ -295,7 +289,7 @@ span.field-icon {
 		<div id="headerbar2">
 			<div class="container clearfix">
 				<div class="row" style="background-color: hsl(0deg 0% 86%)">
-									<nav class="primary-menu" style="height: 40px">
+									<nav class="primary-menu menu-top" style="height: 40px">
 
 										<ul class="menu-container">
 											<li class="menu-item">
@@ -464,7 +458,8 @@ span.field-icon {
 
 					</div>
 			</div>
-		</div><!-- #header end -->
+		</div>
+		<!-- #header end -->
 
 		<!-- Page Title
 		============================================= -->
@@ -487,21 +482,22 @@ span.field-icon {
 			<div class="content-wrap">
 				<div class="container clearfix">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 signup-bg p-5">
-							<h3 class="text-white">#1 Rated in Photo Books</h3>
-							<h4 class="mb-0 text-white">Designs You’ll Love</h4>
-							<p class="text-white">Or create your own with Blank Canvas</p>
-							<h4 class="mb-0 text-white">Your Story, Your Way</h4>
-							<p class="text-white">Enjoy full creative freedom with our editor</p>
-							<h4 class="mb-0 text-white">100% Happiness Guaranteed</h4>
-							<p class="text-white">We’re here to help from start to finish</p>
+						<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 p-5">
+							<h3 class="">#1 Rated in Photo Books</h3>
+							<h4 class="mb-0 ">Designs You’ll Love</h4>
+							<p class=" ">Or create your own with Blank Canvas</p>
+							<h4 class="mb-0  ">Your Story, Your Way</h4>
+							<p class=" ">Enjoy full creative freedom with our editor</p>
+							<h4 class="mb-0  ">100% Happiness Guaranteed</h4>
+							<p class=" ">We’re here to help from start to finish</p>
+							<img src="images/signin.jpg">
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
 							<div class="tabs mx-auto mb-0 clearfix" id="tab-login-register" style="max-width: 500px;">
 
 								<ul class="tab-nav tab-nav2 center clearfix">
-									<li class="inline-block"><a href="#tab-login">Sign in</a></li>
 									<li class="inline-block"><a href="#tab-register">Sign up</a></li>
+									<li class="inline-block"><a href="#tab-login">Sign in</a></li>
 								</ul>
 
 								<div class="tab-container">
@@ -570,7 +566,7 @@ span.field-icon {
 													<div class="col-12 form-group">
 														<button class="button button-3d button-gradient-blue m-0" id="register-form-submit" name="register-form-submit" value="register">Continue</button>
 													</div>
-
+													<p>By signing up, you agree to Idora's Photobook <a href="#"> Terms of Service</a>.</p>
 												</form>
 												
 											<div class="line line-sm"></div>
@@ -581,7 +577,7 @@ span.field-icon {
 												<a href="#" class="button button-rounded si-instagram si-colored">Instagram</a>
 												<a href="#" class="button button-rounded si-google si-colored">Google</a>
 											</div>
-											<p>By signing up, you agree to Idora's Photobook Terms of Service.</p>	
+												
 											</div>
 										</div>
 									</div>
@@ -610,103 +606,97 @@ span.field-icon {
 						<div class="col-lg-8">
 
 							<div class="row col-mb-50">
-								<div class="col-md-4">
-
-									<div class="widget clearfix">
-
-										<img src="images/footer-widget-logo.png" alt="Image" class="footer-logo">
-
-										<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-
-										<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-											<address>
-												<strong>Headquarters:</strong><br>
-												795 Folsom Ave, Suite 600<br>
-												San Francisco, CA 94107<br>
-											</address>
-											<abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
-											<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
-											<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-										</div>
-
-									</div>
-
-								</div>
-
-								<div class="col-md-4">
+								<div class="col-md-3">
 
 									<div class="widget widget_links clearfix">
 
-										<h4>Blogroll</h4>
+										<h4>Contact Us</h4>
+
+										<p>Have questions?<br>Send your queries to<br>XXX@XXX.com<br>We'll be glad to help.</p>
 
 										<ul>
-											<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-											<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-											<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-											<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-											<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-											<li><a href="https://wordpress.org/news/">Canvas Blog</a></li>
-											<li><a href="https://planet.wordpress.org/">Canvas Planet</a></li>
+											<li><a href="#">Help</a></li>
+											<li><a href="#">Returns</a></li>
+											<li><a href="#">Shipping</a></li>
+											<li><a href="#">Deals</a></li>
+											<li><a href="#">Carrers</a></li>
 										</ul>
 
 									</div>
 
 								</div>
 
-								<div class="col-md-4">
+								<div class="col-md-3">
 
-									<div class="widget clearfix">
-										<h4>Recent Posts</h4>
+									<div class="widget widget_links clearfix">
 
-										<div class="posts-sm row col-mb-30" id="post-list-footer">
-											<div class="entry col-12">
-												<div class="grid-inner row">
-													<div class="col">
-														<div class="entry-title">
-															<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-														</div>
-														<div class="entry-meta">
-															<ul>
-																<li>10th July 2021</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
+										<h4>Products</h4>
 
-											<div class="entry col-12">
-												<div class="grid-inner row">
-													<div class="col">
-														<div class="entry-title">
-															<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-														</div>
-														<div class="entry-meta">
-															<ul>
-																<li>10th July 2021</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
+										<ul>
+											<li><a href="#">Photo Books</a></li>
+											<li><a href="#">Baby Photo Books</a></li>
+											<li><a href="#">Travel Photo Books</a></li>
+											<li><a href="#">Home Decor</a></li>
+											<li><a href="#">Calendars</a></li>
+											<li><a href="#">Cards</a></li>
+											<li><a href="#">Designer Collections</a></li>
+										</ul>
 
-											<div class="entry col-12">
-												<div class="grid-inner row">
-													<div class="col">
-														<div class="entry-title">
-															<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-														</div>
-														<div class="entry-meta">
-															<ul>
-																<li>10th July 2021</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
 									</div>
 
 								</div>
+
+								<div class="col-md-3">
+
+									<div class="widget widget_links clearfix">
+
+										<h4>Policy</h4>
+
+										<ul>
+											<li><a href="#">Return Policy</a></li>
+											<li><a href="#">Terms of Services</a></li>
+											<li><a href="#">Privacy Policy</a></li>
+											<li><a href="#">Security</a></li>
+										</ul>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-3">
+								
+
+									<div class="widget widget_links clearfix">
+
+										<h4>Programs</h4>
+
+										<ul>
+											<li><a href="#">For Business</a></li>
+											<li><a href="#">For Schools</a></li>
+											<li><a href="#">School Yearbooks</a></li>
+											<li><a href="#">Affiliate Programme</a></li>
+											<li><a href="#">Volume Discount</a></li>
+										</ul>
+
+									</div>
+
+								</div>
+							
+								<div class="col-md-3 col-lg-6">
+									<div class="widget clearfix">
+										<h4><strong>Get offers and news</strong></h4>
+										<div class="widget-subscribe-form-result"></div>
+										<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+											<div class="input-group mx-auto">
+												<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Email">
+												<div class="input-group-append" style="padding-left: 20px;">
+													<button class="btn btn-success" type="submit" style="border-radius: 5px">Submit</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+											
 							</div>
 
 						</div>
@@ -719,13 +709,24 @@ span.field-icon {
 
 										<div class="row">
 											<div class="col-lg-6 bottommargin-sm">
-												<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-												<h5 class="mb-0">Total Downloads</h5>
+												<div class="widget widget clearfix">
+												<h4>Connect with us</h4>
+													<a href="#" class="social-icon si-dark si-rounded si-facebook"><i class="icon-facebook"></i><i class="icon-facebook"></i></a>
+													<a href="#" class="social-icon si-dark si-rounded si-twitter"><i class="icon-twitter"></i><i class="icon-twitter"></i></a>
+													<a href="#" class="social-icon si-dark si-rounded si-instagram"><i class="icon-instagram"></i><i class="icon-instagram"></i></a>
+													<a href="#" class="social-icon si-dark si-rounded si-pinterest"><i class="icon-pinterest"></i><i class="icon-pinterest"></i></a>
+											<p style="text-align:right;">84390XXXXX</p>
 											</div>
-
+											</div>
 											<div class="col-lg-6 bottommargin-sm">
-												<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-												<h5 class="mb-0">Clients</h5>
+												<div class="widget widget_links clearfix">
+												<h4>About us</h4>
+												<ul>
+													<li><a href="#">About us</a></li>
+													<li><a href="#">Carrers</a></li>
+													<li><a href="#">Press Releases</a></li>
+												</ul>
+											</div>
 											</div>
 										</div>
 
@@ -733,119 +734,42 @@ span.field-icon {
 								</div>
 
 								<div class="col-md-5 col-lg-12">
-									<div class="widget subscribe-widget clearfix">
-										<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-										<div class="widget-subscribe-form-result"></div>
-										<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-											<div class="input-group mx-auto">
-												<div class="input-group-prepend">
-													<div class="input-group-text"><i class="icon-email2"></i></div>
-												</div>
-												<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-												<div class="input-group-append">
-													<button class="btn btn-success" type="submit">Subscribe</button>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-
-								<div class="col-md-3 col-lg-12">
 									<div class="widget clearfix" style="margin-bottom: -20px;">
 
 										<div class="row">
-											<div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
-												<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
-													<i class="icon-facebook"></i>
-													<i class="icon-facebook"></i>
-												</a>
-												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-											</div>
-											<div class="col-6 col-md-12 col-lg-6 clearfix">
-												<a href="#" class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
-													<i class="icon-rss"></i>
-													<i class="icon-rss"></i>
-												</a>
-												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-											</div>
+										<h4>Our Sister Brand: <img src="images/presto-logo.png" alt="Presto Logo"></h4>
 										</div>
 
 									</div>
 								</div>
 
+								<div class="col-md-3 col-lg-12">
+									<div class="widget clearfix">
+										<h4><strong>Refer a friend and get Rs 100 in your Wallet</strong></h4>
+										<div class="widget-subscribe-form-result"></div>
+										<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+											<div class="input-group mx-auto">
+												<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Email">
+												<div class="input-group-append" style="padding-left: 20px">
+													<button class="btn btn-success" type="submit" style="border-radius: 5px">Submit</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
 							</div>
-
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-24 mx-auto">IDORA Book &copy; 2021 - Present.<br>
+								</div>
+							</div>
 						</div>
 					</div>
 
 				</div><!-- .footer-widgets-wrap end -->
 
 			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-				<div class="container">
-
-					<div class="row col-mb-30">
-
-						<div class="col-md-6 text-center text-md-left">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Privacy Policy</a> / <a href="#">Terms and Conditions</a> / <a href="#">Cookie Policy</a> / <a href="#">About us</a> / <a href="#">Contact us</a></div>
-						</div>
-
-						<div class="col-md-6 text-center text-md-right">
-							<div class="d-flex justify-content-center justify-content-md-end">
-								<a href="#" class="social-icon si-small si-borderless si-facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-gplus">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-pinterest">
-									<i class="icon-pinterest"></i>
-									<i class="icon-pinterest"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-vimeo">
-									<i class="icon-vimeo"></i>
-									<i class="icon-vimeo"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-github">
-									<i class="icon-github"></i>
-									<i class="icon-github"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-yahoo">
-									<i class="icon-yahoo"></i>
-									<i class="icon-yahoo"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-linkedin">
-									<i class="icon-linkedin"></i>
-									<i class="icon-linkedin"></i>
-								</a>
-							</div>
-
-							<div class="clear"></div>
-
-							<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
-						</div>
-
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->

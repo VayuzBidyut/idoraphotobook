@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="header.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
@@ -31,80 +32,8 @@
 
 <style>
 
-.revo-slider-emphasis-text {
-			font-size: 58px;
-			font-weight: 700;
-			letter-spacing: 1px;
-			font-family: 'Poppins', sans-serif;
-			padding: 15px 20px;
-			border-top: 2px solid #FFF;
-			border-bottom: 2px solid #FFF;
-		}
-.revo-slider-desc-text {
-			font-size: 20px;
-			font-family: 'Lato', sans-serif;
-			width: 650px;
-			text-align: center;
-			line-height: 1.5;
-		}
-.revo-slider-caps-text {
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 3px;
-			font-family: 'Poppins', sans-serif;
-		}
-.tp-video-play-button { display: none !important; }
-
-		.tp-caption { white-space: nowrap; }
 		
-#top-bar1 {
-    background-color: #5b2c8a;
-}
-#top-bar2 {
-    background-color: #f5f5f5;
-}
-#headerbar2 {
-    background-color: hsl(0deg 0% 86%);
-}
-span.field-icon {
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
-  right: 1.5rem;
-  top: 2.8rem;
-  z-index: 2;
-}
 
-.mb-0.py-2.text-center.text-md-left.top-bar1 {
-    color: #fff
-}
-.testimonial {
-    background-color: #eaeaea;
-}
-.search input[type=text]{ 
-	width:200px; 
-	height:25px; 
-	border-radius:25px; 
-	border: none; 
-} 
-.search{ 
-	float:right; 
-	margin:7px;
-} 
-.search button{ 
-	background-color: hsl(0deg 0% 86%); 
-	color: #f2f2f2; 
-	float: right; 
-	padding: 5px 10px; 
-	margin-right: 16px; 
-	font-size: 12px; 
-	border: none; 
-	cursor: pointer; 
-} 
-.menu-link.active {
-    background-color: #5b2c8a;
-    color: white;
-}
 </style>
 </head>
 
@@ -129,7 +58,7 @@ span.field-icon {
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header">
+		<header id="header" class="header">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -146,7 +75,7 @@ span.field-icon {
 							<!-- Top Cart
 							============================================= -->
 							<div id="top-cart" class="header-misc-icon d-none d-sm-block">
-								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
+								<a href="#" id="top-cart-trigger"><i class="icon-line-shopping-cart"></i><span class="top-cart-number">5</span></a>
 								<div class="top-cart-content">
 									<div class="top-cart-title">
 										<h4>Shopping Cart</h4>
@@ -186,32 +115,35 @@ span.field-icon {
 
 							<!-- Top Search
 							============================================= -->
-							<div id="top-search" class="header-misc-icon">
+							<!-- <div id="top-search" class="header-misc-icon">
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
+							</div> --><!-- #top-search end -->
 
 						</div>
 					<!--#social-media-button-starts-->
-					<a href="#" class="social-icon si-colored si-rounded si-small si-facebook">
-						<i class="icon-facebook"></i>
-						<i class="icon-facebook"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-youtube">
-						<i class="icon-youtube"></i>
-						<i class="icon-youtube"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-instagram">
-						<i class="icon-instagram"></i>
-						<i class="icon-instagram"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-pinterest">
-						<i class="icon-pinterest"></i>
-						<i class="icon-pinterest"></i>
-					</a>
-					<a href="#" class="social-icon si-colored si-rounded si-small si-twitter">
-						<i class="icon-twitter"></i>
-						<i class="icon-twitter"></i>
-					</a>
+					<div class="social-header">
+						<a href="#" class="social-icon si-colored si-rounded si-small si-facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-youtube">
+							<i class="icon-youtube"></i>
+							<i class="icon-youtube"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-instagram">
+							<i class="icon-instagram"></i>
+							<i class="icon-instagram"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-pinterest">
+							<i class="icon-pinterest"></i>
+							<i class="icon-pinterest"></i>
+						</a>
+						<a href="#" class="social-icon si-colored si-rounded si-small si-twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+					</div>
+					
 					<!--#social-media-button-ends-->
 						<div id="primary-menu-trigger">
 							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
@@ -223,7 +155,7 @@ span.field-icon {
 
 							<ul class="menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="#"><div>My Projects</div></a>
+									<a class="menu-link" href="#"><div class="text-purple">My Projects</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item">
 											<a class="menu-link" href="#"><div>Wedding</div></a>
@@ -357,7 +289,7 @@ span.field-icon {
 		<div id="headerbar2">
 			<div class="container clearfix">
 				<div class="row" style="background-color: hsl(0deg 0% 86%)">
-									<nav class="primary-menu" style="height: 40px">
+									<nav class="primary-menu menu-top" style="height: 40px">
 
 										<ul class="menu-container">
 											<li class="menu-item">
@@ -527,6 +459,7 @@ span.field-icon {
 					</div>
 			</div>
 		</div>
+		<!-- #header end -->
 
 
 		<section id="slider" class="slider-element slider-parallax revslider-wrap overflow-hidden clearfix">
