@@ -16434,3 +16434,12 @@ label.radio {
 .tp-video-play-button { display: none !important; }
 
 		.tp-caption { white-space: nowrap; }
+		.section-1-bottom-image img{
+			max-width: 50%;
+		}
+		.section-1-text{
+			background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: -7px 7px #5e418a;
+		}
