@@ -16571,3 +16571,45 @@ text-align:center;
 }
 
 
+/*PRODUCT DETAILS PAGE CSS*/
+.image-box-shadow{
+	box-shadow: 12px 12px 20px 0px #d2cece;
+}
+.content-wrap-top-padding {
+	padding-top: 30px;
+}
+.product-title{
+	padding-bottom: 0px;
+}
+.product-description{
+	margin-bottom: 10px;
+	font-weight: bold;
+    font-size: 13px;
+}
+.product-mrp{
+	margin-bottom: 0px;
+}
+.product-discounted-price{
+	color: #c80000;
+}
+.product-info-column{
+	padding-left: 60px;
+}
+.light-weight-header{
+	font-weight: 500;
+}
+.price-crossed{
+	text-decoration: line-through;
+}
+
+.button-less-padding{
+	border-radius: 5px;
+	padding: 10px 40px;
+	color: #fff;
+	background-color: #5b2c8a;
+	font-weight:600;
+	border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
