@@ -16647,6 +16647,9 @@ text-align:center;
 .margin-top40{
 	margin-top: 40px;
 }
+.margin-top10{
+	margin-top: 10px;
+}
 .margin-left40{
 	margin-left: 40px;
 }
@@ -16797,3 +16800,8 @@ background-color: #5b2c8a;
     float: right;
 }
 
+.testimonial-sm {
+    padding: 0px;
+    background-color: #ffffff00;
+    position: relative;
+}
