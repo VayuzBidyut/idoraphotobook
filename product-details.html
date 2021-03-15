@@ -7,7 +7,7 @@
 			============================================= -->
 		<!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" /> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
 		<link rel="stylesheet" href="style.css" type="text/css" />
 		<link rel="stylesheet" href="header.css" type="text/css" />
 		<link rel="stylesheet" href="css/dark.css" type="text/css" />
@@ -27,6 +27,20 @@
 			.owl-dots{
 				display: none
 			}
+			.rating-block{
+				background-color:#FAFAFA;
+				border:1px solid #EFEFEF;
+				padding:15px 15px 20px 15px;
+				border-radius:3px;
+			}
+
+		.checked {  
+            color : orange;  
+            font-size : 20px;  
+        }  
+        .unchecked {  
+            font-size : 20px;  
+        }  
 		</style>
 	</head>
 	<body class="stretched">
@@ -467,466 +481,495 @@
 				</div>
 			</div>
 			<!-- #header end -->
-			<!-- <section id="slider" class="slider-element slider-parallax revslider-wrap overflow-hidden clearfix">
-				<div id="rev_slider_ishop_wrapper" class="rev_slider_wrapper fullwidth-container" data-alias="default-slider" style="padding:0px;">
-					
-					<div id="rev_slider_ishop" class="rev_slider fullwidthbanner" style="display:none;" data-version="5.1.4">
-						<ul>
-							
-							<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-delay="5000" data-saveperformance="off" data-title="Latest Collections" style="background-color: #F6F6F6;">
-								
-								<div class="tp-caption ltl tp-resizeme revo-slider-caps-text text-uppercase"
-									data-x="100"
-									data-y="50"
-									data-transform_in="x:-200;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="400"
-									data-start="1000"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn"><img src="images/slider/rev/shop/girl1.jpg" alt="Girl"></div>
-								<div class="tp-caption ltl tp-resizeme revo-slider-caps-text text-uppercase"
-									data-x="570"
-									data-y="75"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1000"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn" style=" color: #333;">Get your Shopping Bags Ready</div>
-								<div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text p-0 border-0"
-									data-x="570"
-									data-y="105"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1200"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn" style=" color: #333; max-width: 430px; line-height: 1.15;">Latest Fashion<br>Collections</div>
-								<div class="tp-caption ltl tp-resizeme revo-slider-desc-text text-left"
-									data-x="570"
-									data-y="275"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1400"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn" style=" color: #333; max-width: 550px; white-space: normal;">We have created a Design that looks Awesome, performs Brilliantly &amp; senses Orientations.</div>
-								<div class="tp-caption ltl tp-resizeme"
-									data-x="570"
-									data-y="375"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1550"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn"><a href="#" class="button button-border button-large button-rounded text-right m-0"><span>Start Shopping</span> <i class="icon-angle-right"></i></a></div>
-							</li>
 
-							<li data-transition="slideup" data-slotamount="1" data-masterspeed="1500" data-delay="5000"  data-saveperformance="off"  data-title="Messenger bags" style="background-color: #E9E8E3;">
-								
-								<div class="tp-caption ltl tp-resizeme revo-slider-caps-text text-uppercase"
-									data-x="630"
-									data-y="78"
-									data-transform_in="x:250;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;s:400;e:Power4.easeOutQuad;"
-									data-speed="400"
-									data-start="1000"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn"><img src="images/slider/rev/shop/bag.png" alt="Bag"></div>
-								
-								<div class="tp-caption ltl tp-resizeme revo-slider-caps-text text-uppercase"
-									data-x="0"
-									data-y="110"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1000"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn" style=" color: #333;">Buy Stylish Bags at Discounted Prices</div>
-								<div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text p-0 border-0"
-									data-x="0"
-									data-y="140"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1200"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn" style=" color: #333; line-height: 1.15;">Messenger Bags</div>
-								<div class="tp-caption ltl tp-resizeme revo-slider-desc-text text-left"
-									data-x="0"
-									data-y="240"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1400"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn" style=" color: #333; max-width: 550px; white-space: normal;">Grantees insurmountable challenges invest protect, growth improving quality social entrepreneurship.</div>
-								<div class="tp-caption ltl tp-resizeme"
-									data-x="0"
-									data-y="340"
-									data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="700"
-									data-start="1550"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn"><a href="#" class="button button-border button-large button-rounded text-right m-0"><span>Start Shopping</span> <i class="icon-angle-right"></i></a></div>
-								<div class="tp-caption utb tp-resizeme revo-slider-caps-text text-uppercase"
-									data-x="510"
-									data-y="0"
-									data-transform_in="x:0;y:-236;z:0;rotationZ:0;skewX:0;skewY:0;opacity:0;s:700;e:Power4.easeOutQuad;"
-									data-speed="600"
-									data-start="2100"
-									data-easing="easeOutQuad"
-									data-splitin="none"
-									data-splitout="none"
-									data-elementdelay="0.01"
-									data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn"><img src="images/slider/rev/shop/tag.png" alt="Bag"></div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				
-			</section> -->
-			<section class="text-center">
-				<img src="images/slider/rev/shop/10.png">
-			</section>
-			<!-- Page Title
-				============================================= -->
-			<!-- <section id="page-title">
-				<div class="container clearfix">
-					<h1>My Account</h1>
-					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item"><a href="#">Pages</a></li>
-						<li class="breadcrumb-item active" aria-current="page">Login</li>
-					</ol>
-				</div>
-				
-				</section> --><!-- #page-title end -->
 			<!-- Content
 				============================================= -->
 			<section id="content">
-				<div class="content-wrap" style="padding-bottom: 40px">
+				<div class="content-wrap-top-padding">
 					<div class="container clearfix">
-						<div class="container">
-							<div class="row section-1 mb-5" >
-								<div class="col-lg-5">
-									<div class="col-lg-12 " style="">
-										<h2 class="section-1-headng">Your Story, Your Way</h2>
-										<br>
-										<p class="text-white font-size-20">Our editor gives you the creative freedom to fully customize your design - it's free, fun, and easy to use on any device.</p>
-										<div class="dropdown text-center">
-											<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #5b2c8a; font-weight: 800">GET STARTED</button>
-											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												<a class="dropdown-item" href="#">Photo Books</a>
-												<a class="dropdown-item" href="#">Cards</a>
-												<a class="dropdown-item" href="#">Calendars</a>
-												<a class="dropdown-item" href="#">Home Decor</a>
+
+				<div class="container margin-bottom40">
+				<div class="row">
+					<div class="col-lg-5" data-toggle="modal" data-target=".product-preview-modal-lg">
+						<img src="images/61.png" class="image-box-shadow">
+						<button class="col-lg-12 margin-top40 button-less-padding">TO GET A FULL PREVIEW<i class="icon-search-plus margin-left40"></i></button>
+					</div>
+						<div class="modal fade product-preview-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg">
+									<div class="modal-body">
+										<div class="modal-content">
+											<div class="modal-header tip-tool-modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											</div>
+											<div class="modal-body">
+									<div class="row">
+										<div class="col-lg-7">
+											<h3 class="margin-bottom0" style="font-size: 20px">Personalized Photo Book for Wedding</h3>
+											<h5 class="product-discounted-price margin-bottom10">Price : ₹1,850.00 <span class="inclusive-tax-text" >(Inclusive of all taxes)</span></h5>
+										</div>
+										<div class="col-lg-5">
+
+													<div class="row">
+														<div class="col-lg-3 margin-right20">
+															<p style="font-weight: 600;font-size: 13px">Orientation:</p>
+														</div>
+														<div class="col-lg-3 orientation-box-styles text-center" style="max-width: 25%;font-size: 10px">
+															<img src="images/62.png" class="orimg">
+															<p>Landscape</p>
+														</div>
+														<div class="col-lg-3 orientation-box-styles text-center" style="max-width: 20%;font-size: 10px">
+															<img src="images/63.png" class="orimg">
+															<p>Portrait</p>
+														</div>
+														<div class="col-lg-3 orientation-box-styles text-center" style="max-width: 20%;font-size: 10px">
+															<img src="images/64.png" class="orimg">
+															<p>Square</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row preview-box-carousel">
+
+													<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+													  <div class="carousel-inner">
+													    <div class="carousel-item active">
+													      <img class="d-block w-100" src="images/74.png" alt="First slide">
+													    </div>
+													    <div class="carousel-item">
+													      <img class="d-block w-100" src="images/74.png" alt="Second slide">
+													    </div>
+													    <div class="carousel-item">
+													      <img class="d-block w-100" src="images/74.png" alt="Third slide">
+													    </div>
+													  </div>
+													  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+													    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													    <span class="sr-only">Previous</span>
+													  </a>
+													  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+													    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+													    <span class="sr-only">Next</span>
+													  </a>
+													</div>
+												</div>
+									<div class="row">
+										<div class="col-lg-12 text-center">
+										<p class="margin-bottom10">Click on the book to flip through the template pages</p>
+										<button class="button-less-padding margin-bottom10"><a href="" style="color: #fff">START YOUR BOOK NOW !</a></button>
+										<h4 class="margin-bottom0"><a href="#" style="color: #5b2c8a"><u>View full Product Details</u></a></h4>
+									</div>
+									</div>
+									</div>
+										</div>
+									</div>
+								</div>
+							</div>
+				<div class="col-lg-7 product-info-column">
+			<h3 class="light-weight-header product-title">Personalized Photo Book for Wedding</h3>
+			<p class="product-description">Whether it is everyday or life-changing events, we all love clicking pictures! But these beautiful pictures often get lost in our cluttered galleries and untimately end up in the digital dustbin. Don't let this happen to you. Bring those pictures out of your devices and create magical photobooks that will give you everlasting joy!</p>
+			<h3 class="light-weight-header product-mrp">M.R.P :	<s> 3,000.00</s></h3>
+			<h1 class="product-discounted-price margin-bottom10">Price : ₹1,850.00</h1>
+			<h3 class="light-weight-header margin-bottom10">Inclusive of all taxes</h3>
+			<button class="button-less-padding"><a href="" style="color: #fff">START YOUR BOOK NOW !</a></button>
+				<div class="row margin-top40">
+					<div class="col-lg-3">
+						<a href=""><span class="icon-question-circle help-icon"></span></a>
+						<h4>ORIENTATION :</h4>
+					</div>
+					<div class="col-lg-3 orientation-box-styles text-center" data-toggle="modal" data-target=".orientation-modal-lg">
+						<a href="#"><img src="images/62.png" class="orimg"></a>
+						<a href=""><h3 class="light-weight-header orfont">Landscape</h3></a>
+					</div>
+							<div class="modal fade orientation-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg">
+									<div class="modal-body">
+										<div class="modal-content">
+											<div class="modal-header tip-tool-modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											</div>
+											<div class="modal-body">
+												<div class="row">
+												<div class="col-lg-3">
+													<img src="images/69.png">
+													<h4 class="text-center">6 × 6 ″</h4>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/70.png">
+													<h4 class="text-center margin-bottom0">8.5 × 8.5 ″</h4>
+													<p class="text-center">Most Popular</p>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/71.png">
+													<h4 class="text-center">10 × 10 ″</h4>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/72.png">
+													<h4 class="text-center">12 × 12 ″</h4>
+												</div>
+											</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-12 mb-2"><img src="images/18.png" height="40px"></div>
-									<div class="section-1-text">
-										<p class="mb-0 font-size-20">We want to make order placement as smooth as possible for you and that's why we are offering 3 methods to place orders depending on your convenience. Either choose from our wide range of professionally designed templates or surprise us with your original designs via blank book option or hire an expert designer to make things quick & easy - The choice is yours.
-											</p>
-											<p class="text-right mb-2">-MARIANNE</p>
-									</div>
-								</div>
-								<div class="col-lg-7">
-									<div class="col-lg-12" style="padding-top: 50px"><a href="#"><img src="images/14.png"></a></div>
-									<div class="col-lg-12 text-center section-1-bottom-image" style="padding: 50px"><img src="images/17.png"></div>
 								</div>
 							</div>
-						</div>
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-7">
-									<div class=" pb-5">
-										<h2 class="font-size-50 font-weight-400 text-black line-height-1-2" >KEY FEATURES YOU SHOULDN'T MISS</h2>
-									</div>
-									<div class="mb-2"><img src="images/11.png"></div>
-									<div class="">
-										<h3  class="font-weight-400 font-size-50 mb-0 text-black ">Flexible Order Placement:</h3>
-									</div>
-									<div class="">
-										<p class="mb-0">We want to make order placement as smooth as possible for you and that's why we are offering 3 methods to place orders depending on your convenience. Either choose from our wide range of professionally designed templates or surprise us with your original designs via blank book option or hire an expert designer to make things quick & easy - The choice is yours. <br>
-										<p class="text-red">Read More</p>
-										</p>
-									</div>
-								</div>
-								<div class="col-lg-5">
-									<div class="mb-2"><img src="images/12.png"></div>
-									<div class="">
-										<h2 class="font-weight-400 mb-0 font-size-40 line-height-1-2" >Collaborate & Share The Fun:</h2>
-									</div>
-									<div class="col-lg-12">
-										<p class="mb-0">While you explore your creativity on our editor,<br>
-										<p class="text-red">Read More</p>
-										</p>
-									</div>
-									<div class="mb-2"><img src="images/13.png"></div>
-									<div class="">
-										<h2 class="font-size-40 font-weight-400 mb-0 text-black line-height-1-2">Start Earning Today with our Affiliate Program :</h2>
-									</div>
-									<div class="">
-										<p class="mb-0">Take advantage of our products, editor and service<br>
-										<p style="color: #f80802">Read More</p>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-5">
-									<div class="p-4" style="border-radius: 5px; background-color: #cce2f0">
-										<h2 class="text-black font-size-50 font-weight-400 mb-0 line-height-1-2" >Bind Your Memories</h1>
-										<br>
-										<p>Your memories are special and deserver to be preserved well. Don't let them fade away by turning them into our wide range of photo products.</p>
-										<div class="text-center" style="border-radius: 5px;padding: 10px 20px;margin: 0 auto;" >
-											<span style="color: #fff;background-color: #018ec6;padding: 12px 20px;border-radius: 5px;">GET STARTED</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-7">
-									<div class="shop-section"><img src="images/photobooks.png"></div>
-									<div class=" text-center mb-5 shop-button p-2" style="" >
-										<a href="#" class="text-white">Shop Photo Books</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="container">
-							<div class="row p-0 align-items-stretch">
-								<div class="col-lg-4">
-									<div class="shop-section" ><img src="images/cards.png"></div>
-									<div class="text-center mb-5 shop-button p-2"  >
-										<a href="#" class="text-white">Shop Cards</a>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="shop-section"><img src="images/calendars.png"></div>
-									<div class="text-center mb-5 shop-button p-2"  >
-										<a href="#" class="text-white">Shop Calendars</a>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="shop-section"><img src="images/decor.png"></div>
-									<div class="text-center mb-5 shop-button p-2"  >
-										<a href="#" class="text-white">Shop Home Decor</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-12  mb-5" >
-									<div class="border-radius-5" style="background-color: #fde4c6; ">
-										
-									
-										<div class=" text-center">
-											<h2 class="text-black font-size-50 font-weight-400 mb-0">Shop for Community Member built designs</h2>
-											
-											<p class="mb-0">Are you great with building stuff? Add your product to our inventory and help others!</p>
-										</div>
-										<div id="oc-images" class="owl-carousel image-carousel carousel-widget mb-3 p-4" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="5">
-											<div class="oc-item">
-												<a href="#"><img src="images/5.png" alt="Image 1"></a>
+					<div class="col-lg-3 orientation-box-styles text-center" data-toggle="modal" data-target=".orientation-modal-lg">
+						<a href="#"><img src="images/63.png" class="orimg"></a>
+						<a href=""><h3 class="light-weight-header orfont">Portrait</h3></a>
+					</div>
+						<div class="modal fade orientation-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg">
+									<div class="modal-body">
+										<div class="modal-content">
+											<div class="modal-header tip-tool-modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/6.png" alt="Image 2"></a>
+											<div class="modal-body">
+												<div class="row">
+												<div class="col-lg-3">
+													<img src="images/69.png">
+													<h4 class="text-center">6 × 6 ″</h4>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/70.png">
+													<h4 class="text-center margin-bottom0">8.5 × 8.5 ″</h4>
+													<p class="text-center">Most Popular</p>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/71.png">
+													<h4 class="text-center">10 × 10 ″</h4>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/72.png">
+													<h4 class="text-center">12 × 12 ″</h4>
+												</div>
 											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/7.png" alt="Image 3"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/8.png" alt="Image 4"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/9.png" alt="Image 5"></a>
 											</div>
 										</div>
-										<p class="text-center pb-4 mb-0" >
-											<a style= " background-color: #f7921e; border-radius: 5px; padding: 10px; color: #fff">EXPLORE NOW</a>
-										</p>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget" data-margin="20" data-items-sm="1" data-items-md="2" data-items-xl="3">
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4 text-right">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											John Doe
-											<span>XYZ Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4 text-right">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Collis Ta'eed
-											<span>Envato Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/7.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4 text-right">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Mary Jane
-											<span>Google Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Steve Jobs
-											<span>Apple Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/4.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Jamie Morrison
-											<span>Adobe Inc.</span>
+					<div class="col-lg-3 orientation-box-styles text-center" data-toggle="modal" data-target=".orientation-modal-lg">
+						<a href="#"><img src="images/64.png" class="orimg"></a>
+						<a href=""><h3 class="light-weight-header orfont">Square</h3></a>
+					</div>
+							<div class="modal fade orientation-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg">
+									<div class="modal-body">
+										<div class="modal-content">
+											<div class="modal-header tip-tool-modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											</div>
+											<div class="modal-body">
+												<div class="row">
+												<div class="col-lg-3">
+													<img src="images/69.png">
+													<h4 class="text-center">6 × 6 ″</h4>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/70.png">
+													<h4 class="text-center margin-bottom0">8.5 × 8.5 ″</h4>
+													<p class="text-center">Most Popular</p>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/71.png">
+													<h4 class="text-center">10 × 10 ″</h4>
+												</div>
+												<div class="col-lg-3">
+													<img src="images/72.png">
+													<h4 class="text-center">12 × 12 ″</h4>
+												</div>
+											</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<p class="center mt-3 mb-3">Rated 4.5/5 based on<span class="text-purple"> <u>4000 reviews</u></span>. Showing only 4 & 5 star reviews</p>
-						<div class="row pt-3" style="background-color: #f0f0f0">
-							<div class="col-md-24 mx-auto">
-								<h2>Media Coverage</h2>
-							</div>
+					<div class="row margin-top40">
+					<div class="col-lg-3">
+						<a href=""><span class="icon-question-circle help-icon"></span></a>
+						<h4>SIZE :</h4>
+					</div>
+					<div class="col-lg-2 orientation-box-styles text-center margin-bottom30">
+						<a href="#"><img src="images/65.png" class="orimg" style="max-width: 65%"></a>
+					</div>
+					<div class="col-lg-2 orientation-box-styles text-center margin-bottom30">
+						<a href="#"><img src="images/66.png" class="orimg" style="max-width: 75%"></a>
+					</div>
+					<div class="col-lg-2 orientation-box-styles text-center margin-bottom30">
+						<a href="#"><img src="images/67.png" class="orimg" style="max-width: 85%"></a>
+					</div>
+					<div class="col-lg-2 orientation-box-styles text-center margin-bottom10">
+						<a href="#"><img src="images/68.png" class="orimg" style="max-width: 100%"></a>
+					</div>
 						</div>
-						<div class="row p-0 align-items-stretch" style="background-color: #f0f0f0">
-										<div id="oc-images" class="owl-carousel image-carousel carousel-widget mb-3 p-4" data-items-xs="2" data-items-sm="3" data-items-lg="3" data-items-xl="3" style="padding-top: 0px !important; padding-bottom: 0px !important">
-											<div class="oc-item">
-												<a href="#"><img src="images/hindustantimes.png" alt="Image 1"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/firstpost.png" alt="Image 2"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/indiatoday.png" alt="Image 3"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/hindustantimes.png" alt="Image 4"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/firstpost.png" alt="Image 5"></a>
+					</div>
+				</div>
+			</div>
+			<div class="container margin-bottom40">
+				<div class="row">
+					<div class="col-lg-5 border likeable-column">
+						<button class="button-likeable-padding col-lg-12 margin-bottom40"><a href="" style="color: #5b2c89">You may also like</a></button>
+					<div class="col-lg-12 col-md-12 likeable-column-image">
+					<div class="text-center" ><img src="images/59.png"></div>
+					<div class="text-center" style="padding-top: 5px"><a href="#" class="text-black" style="font-size: 20px">Wedding Album</a></div>
+					<div class="text-center mb-5 p-2" style="padding-top: 0px !important"><a href="#" class="text-red" style="font-weight: 600">₹ 0000.00</a></div>
+					</div>
+					<div class="col-lg-12 col-md-12 likeable-column-image">
+					<div class="text-center" ><img src="images/60.png"></div>
+					<div class="text-center" style="padding-top: 5px"><a href="#" class="text-black" style="font-size: 20px">Wedding Album</a></div>
+					<div class="text-center mb-5 p-2" style="padding-top: 0px !important"><a href="#" class="text-red" style="font-weight: 600">₹ 0000.00</a></div>
+					</div>
+				</div>
+		<div class="col-lg-7 product-info-column">
+
+				<div class="row margin-top40">
+					<div class="col-lg-3">
+						<a href=""><span class="icon-question-circle help-icon"></span></a>
+						<h4>PAPER :</h4>
+					</div>
+					<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg-12 border item-details-list-column">
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Art Paper</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Non Tearable Paper</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Non Tearable Silver</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Non Tearable Gold</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="row margin-top40">
+					<div class="col-lg-3">
+						<a href=""><span class="icon-question-circle help-icon"></span></a>
+						<h4>LAMINATION :</h4>
+					</div>
+					<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg-12 border item-details-list-column">
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">High Gloss</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Silky Matte</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Velvet</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Sparkle</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">3D Square</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="row margin-top40">
+					<div class="col-lg-3">
+						<a href=""><span class="icon-question-circle help-icon"></span></a>
+						<h4>BINDING :</h4>
+					</div>
+					<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg-12 border item-details-list-column">
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Standard Binding</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Lay Flat Binding</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="row margin-top40">
+					<div class="col-lg-3">
+						<a href=""><span class="icon-question-circle help-icon"></span></a>
+						<h4>COVER :</h4>
+					</div>
+					<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg-12 border item-details-list-column">
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Hard Cover</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+							<button class="col-lg-12 item-details-list-button"><p class="pfloat-left">Soft Cover</p><p class="pfloat-right">+ ₹ 00.00</p></button>
+						</div>
+					</div>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6 border">
+
+<div class="row">
+	<h4 class="light-weight-header margin-left20">Ratings and Reviews</h4>
+</div>
+<div class="row">
+                    <div class="col-xs-12 col-md-6 text-center">
+
+                        <h1 class="rating-num margin-bottom10">
+                            4.8 <i class="fas fa-star"></i></h1>
+                        <div>
+                            <p>10 Ratings and 10 Reviews</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="row rating-desc">
+                            <div class="col-xs-3 col-md-3 text-right">
+                                5 <span class="fas fa-star"></span>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        <span class="sr-only">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 5 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                4 <span class="fas fa-star"></span>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 4 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                3 <span class="fas fa-star"></span>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                        <span class="sr-only">40%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 3 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                2 <span class="fas fa-star"></span>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        <span class="sr-only">20%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 2 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                1 <span class="fas fa-star"></span>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                                        <span class="sr-only">15%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 1 -->
+                        </div>
+                        <!-- end row -->
+                    </div>
+                </div>
+
+
+
+
+		</div>
+		<div class="col-lg-6">
+<h4>Customer Review</h4>
+<span>Average Customer Review:
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star unchecked"></span> 10 Customer Reviews</span>
+							<div class="fslider testimonial" data-animation="fade" data-arrows="false">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<div class="testi-content">
+												<p>This is perfect gift containing your special memories <i class="far fa-grin"></i> <i class="far fa-kiss-wink-heart"></i></p>
+												<a href="#" style="color: #000">[read more]</a>
+												<div class="testi-meta-name">
+													Ankita Agranayak, Jaipur
+												</div>
 											</div>
 										</div>
+										<div class="slide">
+											<div class="testi-content">
+												<p>This is perfect gift containing your special memories <i class="far fa-grin"></i> <i class="far fa-kiss-wink-heart"></i></p>
+												<a href="#" style="color: #000">[read more]</a>
+												<div class="testi-meta-name">
+													Ankita Agranayak, Jaipur
+												</div>
+											</div>
+										</div>
+										<div class="slide">
+											<div class="testi-content">
+												<p>This is perfect gift containing your special memories <i class="far fa-grin"></i> <i class="far fa-kiss-wink-heart"></i></p>
+												<a href="#" style="color: #000">[read more]</a>
+												<div class="testi-meta-name">
+													Ankita Agranayak, Jaipur
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+		</div>
+	</div>
+</div>
+
+
+
+					<div class="container">
+						<div class="row">
+							<h2 class="margin-bottom10">SPECIFICATION</h2>
 						</div>
+					<div class="row product-specification">
+						<div class="col-lg-3 no-lr-padding">
+							<p>Photo Product</p>
+						</div>
+						<div class="col-lg-9 no-lr-padding">
+							<p>: Memories are forever and needs to be preserved well. Transform your pictures into meticulously made high quality photo book. Available in 3 sizes: 9 inch x 9.5 inch, 12.5 inch x 9 inch and 18.25 inch x 12 inch.</p>
+						</div>
+					</div>
+					<div class="row product-specification">
+						<div class="col-lg-3 no-lr-padding">
+							<p>About</p>
+						</div>
+						<div class="col-lg-9 no-lr-padding">
+							<p>: Made with expert graphic designs and state of the art printing technology. High quality matte finished pages are used for printing your pictures.</p>
+						</div>
+					</div>
+					<div class="row product-specification">
+						<div class="col-lg-3 no-lr-padding">
+							<p>Album Size</p>
+						</div>
+						<div class="col-lg-9 no-lr-padding">
+							<p>: The photo books come in a size o 9 inch x 9.5 inch. Each photo book has 30 Pages/15 Leaves + 1 Front and 1 Back Cover. We recommend 100 pictures for each photo book.</p>
+						</div>
+					</div>
+					<div class="row product-specification">
+						<div class="col-lg-3 no-lr-padding">
+							<p>Personalize your memories</p>
+						</div>
+						<div class="col-lg-9 no-lr-padding">
+							<p>: The photo book is perfect to showcase your travel stories, achievements, weddings, vacations and other special occasions.</p>
+						</div>
+					</div>
+					<div class="row product-specification">
+						<div class="col-lg-3 no-lr-padding">
+							<p>About your images & text</p>
+						</div>
+						<div class="col-lg-9 no-lr-padding">
+							<p>: Send us your texts and images after placing an order. For further details, please go throigh the second image.</p>
+						</div>
+					</div>
+					</div>
 					</div>
 				</div>
 			</section>
