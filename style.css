@@ -3210,7 +3210,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     padding: 14px 5px;
     color: #444;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-family: MyriadPro, sans-serif;
 }
@@ -3231,7 +3231,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item.current>.menu-link,
 .menu-item:hover>.menu-link {
-	color: #1abc9c
+	color: #5d418a
 }
 
 .mega-menu-content,
@@ -16497,9 +16497,10 @@ label.radio {
     background-color: #dcdcdc;
     z-index: +99;
     position: relative;
+    text-align: center
 }
 .shop-section img{
-	border-radius: 5px
+	border-radius: 5px;
 } 
 .shop-button{
 	background-color: #018ec6; border-radius: 0 0 5px 5px;
@@ -16516,12 +16517,17 @@ color:gold;
 /*footer css*/
 
 #footer .social-icon {
-margin-right: 5px;
+margin-right: 13px;
     width: 30px;
     height: 30px;
     font-size: 1rem;
     line-height: 30px!important;
 }
+
+#footer .social-icon.si-pinterest{
+margin-right: 0px !important
+}
+
 
 /*PRODUCT LANDING PAGE CSS*/
 
@@ -16843,4 +16849,31 @@ background-color: #5b2c8a;
 .create-photobook-points-elements {
 
 }
+}
+
+
+/*Header page css*/
+.menu-link.drop-icon :after {
+    content: "▾";
+    margin-left: .25em;
+}
+
+
+#headerbar2 .menu-item.current>.menu-link,
+#headerbar2 .menu-item:hover>.menu-link {
+	color: #ffffff !important
+}
+
+
+
+/*product landing page*/
+
+#content .content-wrap{
+	padding: 50px  0
+}
+
+.produst-landing-p{
+	color: #5b2c8a;
+    line-height: 2;
+    font-size: 20px;
 }

@@ -23,7 +23,7 @@ span.field-icon {
     background-color: #eaeaea;
 }
 .search input[type=text]{ 
-	width:230px; 
+	width:200px; 
 	height:25px; 
 	border-radius:25px; 
 	border: none; 
@@ -69,4 +69,8 @@ span.field-icon {
 .active-top div{
 	    color: #5d418a;
 	    font-weight:600;
+}
+
+#headerbar2 .sub-menu-container .menu-link div{
+	padding: 10px 15px
 }
