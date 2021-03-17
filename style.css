@@ -16874,6 +16874,15 @@ background-color: #5b2c8a;
 
 .produst-landing-p{
 	color: #5b2c8a;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 20px;
+}
+
+/*FOOTER SECTION*/
+.footer-phone-element {
+	float: right;
+	padding-right: 30px;
+}
+.footer-submit-button{
+	border-radius: 5px !important;
 }
