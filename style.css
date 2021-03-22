@@ -2518,8 +2518,11 @@ html[xmlns] .slider-wrap {
 
 #top-bar {
 	position: relative;
-	border-bottom: 1px solid #eee;
-	font-size: 13px
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    background-color: #5b2c8a;
+    color: #fff;
+
 }
 
 .top-links {
@@ -2793,7 +2796,8 @@ html[xmlns] .slider-wrap {
 #header-wrap {
 	position: relative;
 	background-color: #fff;
-	width: 100%
+	width: 100%;
+	background-color: hsl(0deg 0% 86%);
 }
 
 .header-wrap-clone {
@@ -3086,11 +3090,13 @@ only screen and (min-resolution:2dppx) {
 }
 
 .header-extras li .he-text {
-	padding-left: 10px;
-	font-weight: 700;
-	font-size: .875rem
+	padding: 20px;
+	font-weight: 400;
+	font-size: 1rem
 }
-
+.header-extras li .he-text a{
+    color: #212121;
+}
 .header-extras li .he-text span {
 	display: block;
 	font-weight: 400;
@@ -3232,6 +3238,10 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .menu-item.current>.menu-link,
 .menu-item:hover>.menu-link {
 	color: #5d418a
+}
+.menu-item.current>.menu-link {
+	color: #ffffff;
+    background-color: #5d418a;
 }
 
 .mega-menu-content,
@@ -3437,8 +3447,8 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		transition: margin .4s ease, padding .4s ease
 	}
 	.header-size-sm .menu-container>.menu-item>.menu-link {
-		padding-top: 19px;
-		padding-bottom: 19px
+		padding-top: 15px;
+		padding-bottom: 15px
 	}
 	.header-size-md .menu-container>.menu-item>.menu-link {
 		padding-top: 29px;
@@ -3463,7 +3473,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		background-color: #fff;
 		box-shadow: 0 13px 42px 11px rgba(0, 0, 0, .05);
 		border: 1px solid #eee;
-		border-top: 2px solid #1abc9c;
+		border-top: 2px solid #fa423b;
 		z-index: 399;
 		top: 100%;
 		left: 0;
@@ -3822,7 +3832,8 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		width: calc(100% + 40px);
 		height: 100%;
 		overflow-y: scroll;
-		padding-right: 40px
+		padding-right: 40px;
+
 	}
 	.side-header #header-wrap>.container {
 		width: 260px;

@@ -66,8 +66,8 @@ span.field-icon {
 	padding-bottom: 10px;
 }
 
-.active-top div{
-	    color: #5d418a;
+.active-top{
+	    color: #5d418a !important;
 	    font-weight:600;
 }
 
