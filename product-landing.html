@@ -1,462 +1,531 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="author" content="SemiColonWeb" />
-		<!-- Stylesheets
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+    <!-- Stylesheets
 			============================================= -->
-		<!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" /> -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-		<link rel="stylesheet" href="style.css" type="text/css" />
-		<link rel="stylesheet" href="header.css" type="text/css" />
-		<link rel="stylesheet" href="css/dark.css" type="text/css" />
-		<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-		<link rel="stylesheet" href="css/animate.css" type="text/css" />
-		<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-		<link rel="stylesheet" href="css/custom.css" type="text/css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-		<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-		<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
-		<!-- Document Title
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="header.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="include/rs-plugin/css/settings.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="include/rs-plugin/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="include/rs-plugin/css/navigation.css"
+    />
+    <!-- Document Title
 			============================================= -->
-		<title>Idora PhotoBook</title>
-		<style>
-			.owl-dots{
-				display: none
-			}
+    <title>Idora PhotoBook</title>
+    <style>
+      .owl-dots {
+        display: none;
+      }
 
-			.grid-filter li.activeFilter a {
-    			background-color: #338dc9;
-			}
-			.grid-filter.style-2 li a, .grid-filter.style-3 li a, .grid-filter.style-4 li a {
-   				padding-top: 5px;
-    			padding-bottom: 5px;
-    			border-radius: 5px;
-			}
-		</style>
-	</head>
-	<body class="stretched">
-		<!-- Document Wrapper
+      .grid-filter li.activeFilter a {
+        background-color: #338dc9;
+      }
+      .grid-filter.style-2 li a,
+      .grid-filter.style-3 li a,
+      .grid-filter.style-4 li a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class="stretched">
+    <!-- Document Wrapper
 			============================================= -->
-		<div id="wrapper" class="clearfix">
-			<!-- Top Bar
+    <div id="wrapper" class="clearfix">
+      <!-- Top Bar
 				============================================= -->
-			<div id="top-bar1">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-24 mx-auto">
-							<p class="mb-0 py-2 text-center text-md-left top-bar1">APPLIED  IDORA50  Welcome: up to 50% off!</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- #top-bar end -->
-			<!-- Header
+      <div id="top-bar1">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-24 mx-auto">
+              <p class="mb-0 py-2 text-center text-md-left top-bar1">
+                APPLIED IDORA50 Welcome: up to 50% off!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #top-bar end -->
+      <!-- Header
 				============================================= -->
-			<header id="header" class="header">
-				<div id="header-wrap">
-					<div class="container pl-0">
-						<div class="header-row">
-							<!-- Logo
+      <header id="header" class="header">
+        <div id="header-wrap">
+          <div class="container pl-0">
+            <div class="header-row">
+              <!-- Logo
 								============================================= -->
-							<div id="logo">
-								<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/Idora_Logo.png" alt="Canvas Logo"></a>
-								<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/Idora_Logo@2x.png" alt="Canvas Logo"></a>
-							</div>
-							<!-- #logo end -->
-							<div class="header-misc">
-								<!-- Top Cart
+              <div id="logo">
+                <a
+                  href="index.html"
+                  class="standard-logo"
+                  data-dark-logo="images/logo-dark.png"
+                  ><img src="images/Idora_Logo.png" alt="Canvas Logo"
+                /></a>
+                <a
+                  href="index.html"
+                  class="retina-logo"
+                  data-dark-logo="images/logo-dark@2x.png"
+                  ><img src="images/Idora_Logo@2x.png" alt="Canvas Logo"
+                /></a>
+              </div>
+              <!-- #logo end -->
+              <div class="header-misc">
+                <!-- Top Cart
 									============================================= -->
-								<div id="top-cart" class="header-misc-icon d-none d-sm-block">
-									<a href="#" id="top-cart-trigger"><i class="icon-line-shopping-cart"></i><span class="top-cart-number">5</span></a>
-									<div class="top-cart-content">
-										<div class="top-cart-title">
-											<h4>Shopping Cart</h4>
-										</div>
-										<div class="top-cart-items">
-											<div class="top-cart-item">
-												<div class="top-cart-item-image">
-													<a href="#"><img src="images/6.png" alt="wedding card" /></a>
-												</div>
-												<div class="top-cart-item-desc">
-													<div class="top-cart-item-desc-title">
-														<a href="#">Wedding Card</a>
-														<span class="top-cart-item-price d-block">₹ 1000.00</span>
-													</div>
-													<div class="top-cart-item-quantity">x 2</div>
-												</div>
-											</div>
-											<div class="top-cart-item">
-												<div class="top-cart-item-image">
-													<a href="#"><img src="images/5.png" alt="Family Calender" /></a>
-												</div>
-												<div class="top-cart-item-desc">
-													<div class="top-cart-item-desc-title">
-														<a href="#">Family calender</a>
-														<span class="top-cart-item-price d-block">₹2400.99</span>
-													</div>
-													<div class="top-cart-item-quantity">x 3</div>
-												</div>
-											</div>
-										</div>
-										<div class="top-cart-action">
-											<span class="top-checkout-price">₹3400.99</span>
-											<a href="#" class="button button-3d button-small m-0">View Cart</a>
-										</div>
-									</div>
-								</div>
-								<!-- #top-cart end -->
-								<!-- Top Search
+                <div id="top-cart" class="header-misc-icon d-none d-sm-block">
+                  <a href="#" id="top-cart-trigger"
+                    ><i class="icon-line-shopping-cart"></i
+                    ><span class="top-cart-number">5</span></a
+                  >
+                  <div class="top-cart-content">
+                    <div class="top-cart-title">
+                      <h4>Shopping Cart</h4>
+                    </div>
+                    <div class="top-cart-items">
+                      <div class="top-cart-item">
+                        <div class="top-cart-item-image">
+                          <a href="#"
+                            ><img src="images/6.png" alt="wedding card"
+                          /></a>
+                        </div>
+                        <div class="top-cart-item-desc">
+                          <div class="top-cart-item-desc-title">
+                            <a href="#">Wedding Card</a>
+                            <span class="top-cart-item-price d-block"
+                              >₹ 1000.00</span
+                            >
+                          </div>
+                          <div class="top-cart-item-quantity">x 2</div>
+                        </div>
+                      </div>
+                      <div class="top-cart-item">
+                        <div class="top-cart-item-image">
+                          <a href="#"
+                            ><img src="images/5.png" alt="Family Calender"
+                          /></a>
+                        </div>
+                        <div class="top-cart-item-desc">
+                          <div class="top-cart-item-desc-title">
+                            <a href="#">Family calender</a>
+                            <span class="top-cart-item-price d-block"
+                              >₹2400.99</span
+                            >
+                          </div>
+                          <div class="top-cart-item-quantity">x 3</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="top-cart-action">
+                      <span class="top-checkout-price">₹3400.99</span>
+                      <a href="#" class="button button-3d button-small m-0"
+                        >View Cart</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- #top-cart end -->
+                <!-- Top Search
 									============================================= -->
-								<!-- <div id="top-search" class="header-misc-icon">
+                <!-- <div id="top-search" class="header-misc-icon">
 									<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
 									</div> --><!-- #top-search end -->
-							</div>
-							<!--#social-media-button-starts-->
-							<div class="social-header">
-								<a href="#" class="social-icon si-colored si-rounded si-small si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-								</a>
-								<a href="#" class="social-icon si-colored si-rounded si-small si-youtube">
-								<i class="icon-youtube"></i>
-								<i class="icon-youtube"></i>
-								</a>
-								<a href="#" class="social-icon si-colored si-rounded si-small si-instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-								</a>
-								<a href="#" class="social-icon si-colored si-rounded si-small si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-								</a>
-								<a href="#" class="social-icon si-colored si-rounded si-small si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-								</a>
-							</div>
-							<!--#social-media-button-ends-->
-							<div id="primary-menu-trigger">
-								<svg class="svg-trigger" viewBox="0 0 100 100">
-									<path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
-									<path d="m 30,50 h 40"></path>
-									<path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
-								</svg>
-							</div>
-							<!-- Primary Navigation
+              </div>
+              <!--#social-media-button-starts-->
+              <div class="social-header">
+                <a
+                  href="#"
+                  class="social-icon si-colored si-rounded si-small si-facebook"
+                >
+                  <i class="icon-facebook"></i>
+                  <i class="icon-facebook"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon si-colored si-rounded si-small si-youtube"
+                >
+                  <i class="icon-youtube"></i>
+                  <i class="icon-youtube"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon si-colored si-rounded si-small si-instagram"
+                >
+                  <i class="icon-instagram"></i>
+                  <i class="icon-instagram"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon si-colored si-rounded si-small si-pinterest"
+                >
+                  <i class="icon-pinterest"></i>
+                  <i class="icon-pinterest"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon si-colored si-rounded si-small si-twitter"
+                >
+                  <i class="icon-twitter"></i>
+                  <i class="icon-twitter"></i>
+                </a>
+              </div>
+              <!--#social-media-button-ends-->
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div>
+              <!-- Primary Navigation
 								============================================= -->
-							<nav class="primary-menu">
-								<ul class="menu-container">
-									<li class="menu-item">
-										<a class="menu-link active-top" href="#">
-											<div class="">My Projects</div>
-										</a>
-									</li>
-									<li class="menu-item">
-										<a class="menu-link" href="#">
-											<div>My Photos</div>
-										</a>
-									</li>
-									<li class="menu-item">
-										<a class="menu-link drop-icon" href="#">
-											<div>Account</div>
-										</a>
-										<ul class="sub-menu-container">
-											<li class="menu-item">
-												<a class="menu-link" href="#">
-													<div>Settings</div>
-												</a>
-											</li>
-											<li class="menu-item">
-												<a class="menu-link" href="#">
-													<div>Orders</div>
-												</a>
-											</li>
-											<li class="menu-item">
-												<a class="menu-link" href="index-corporate.html">
-													<div>Sign out</div>
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li class="menu-item">
-										<a class="menu-link" href="#">
-											<div>Help</div>
-										</a>
-									</li>
-								</ul>
-							</nav>
-							<!-- #primary-menu end -->
-							<form class="top-search-form" action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="header-wrap-clone"></div>
-			</header>
-			<!-- #header end -->
-			<div id="headerbar2">
-				<div class="container clearfix">
-					<div class="row page-bg-color">
-						<nav class="primary-menu menu-top height-fourty">
-							<ul class="menu-container">
-								<li class="menu-item">
-									<a class="menu-link drop-icon active" href="#">
-										<div>Photo Books</div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Wedding</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Travel</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-corporate.html">
-												<div>Birthday</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Fashion Portfolio</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Family</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Love</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-magazine.html">
-												<div>Year In Review</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="landing.html">
-												<div>Festive</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-fullscreen-image.html">
-												<div>Scrapbook</div>
-											</a>
-										</li>
-									</ul>
-									<!-- <button class="sub-menu-trigger icon-chevron-right"></button> -->
-								</li>
-								<li class="menu-item">
-									<a class="menu-link drop-icon" href="#">
-										<div>Cards </div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Wedding</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Travel</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-corporate.html">
-												<div>Birthday</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Fashion Portfolio</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Family</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Love</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-magazine.html">
-												<div>Year In Review</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="landing.html">
-												<div>Festive</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-fullscreen-image.html">
-												<div>Corporate</div>
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a class="menu-link drop-icon" href="#">
-										<div>Calendars</div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Wedding</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Travel</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-corporate.html">
-												<div>Birthday</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Greeting</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Family</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Love</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-magazine.html">
-												<div>Year In Review</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="landing.html">
-												<div>Festive</div>
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a class="menu-link drop-icon" href="#">
-										<div>Home Decor</div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Canvas Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Metal Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-corporate.html">
-												<div>Wooden Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Vinyl Prints</div>
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a class="menu-link drop-icon" href="#">
-										<div>Get Inspired</div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Canvas Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Metal Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-corporate.html">
-												<div>Wooden Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Vinyl Prints</div>
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a class="menu-link drop-icon" href="#">
-										<div>Deals</div>
-									</a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Canvas Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Metal Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="index-corporate.html">
-												<div>Wooden Prints</div>
-											</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="#">
-												<div>Vinyl Prints</div>
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</nav>
-						<!-- #primary-menu end -->
-						<!-- seach bar -->
-						<div class="search">
-							<form action="#" class="margin-bottom0"> 
-								<input type="text"placeholder=""name="search">
-								<button><i class="fa fa-search font-size18"> </i> </button> 
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
+              <nav class="primary-menu">
+                <ul class="menu-container">
+                  <li class="menu-item">
+                    <a class="menu-link active-top" href="#">
+                      <div class="">My Projects</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#">
+                      <div>My Photos</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link drop-icon" href="#">
+                      <div>Account</div>
+                    </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a class="menu-link" href="#">
+                          <div>Settings</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="#">
+                          <div>Orders</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="index-corporate.html">
+                          <div>Sign out</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#">
+                      <div>Help</div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+              <form class="top-search-form" action="search.html" method="get">
+                <input
+                  type="text"
+                  name="q"
+                  class="form-control"
+                  value=""
+                  placeholder="Type &amp; Hit Enter.."
+                  autocomplete="off"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+      <div id="headerbar2">
+        <div class="container clearfix">
+          <div class="row page-bg-color">
+            <nav class="primary-menu menu-top height-fourty">
+              <ul class="menu-container">
+                <li class="menu-item">
+                  <a class="menu-link drop-icon active" href="#">
+                    <div>Photo Books</div>
+                  </a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Wedding</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Travel</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-corporate.html">
+                        <div>Birthday</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Fashion Portfolio</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Family</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Love</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-magazine.html">
+                        <div>Year In Review</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="landing.html">
+                        <div>Festive</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-fullscreen-image.html">
+                        <div>Scrapbook</div>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- <button class="sub-menu-trigger icon-chevron-right"></button> -->
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link drop-icon" href="#">
+                    <div>Cards</div>
+                  </a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Wedding</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Travel</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-corporate.html">
+                        <div>Birthday</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Fashion Portfolio</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Family</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Love</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-magazine.html">
+                        <div>Year In Review</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="landing.html">
+                        <div>Festive</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-fullscreen-image.html">
+                        <div>Corporate</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link drop-icon" href="#">
+                    <div>Calendars</div>
+                  </a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Wedding</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Travel</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-corporate.html">
+                        <div>Birthday</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Greeting</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Family</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Love</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-magazine.html">
+                        <div>Year In Review</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="landing.html">
+                        <div>Festive</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link drop-icon" href="#">
+                    <div>Home Decor</div>
+                  </a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Canvas Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Metal Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-corporate.html">
+                        <div>Wooden Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Vinyl Prints</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link drop-icon" href="#">
+                    <div>Get Inspired</div>
+                  </a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Canvas Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Metal Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-corporate.html">
+                        <div>Wooden Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Vinyl Prints</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link drop-icon" href="#">
+                    <div>Deals</div>
+                  </a>
+                  <ul class="sub-menu-container">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Canvas Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Metal Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="index-corporate.html">
+                        <div>Wooden Prints</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <div>Vinyl Prints</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <!-- #primary-menu end -->
+            <!-- seach bar -->
+            <div class="search">
+              <form action="#" class="margin-bottom0">
+                <input type="text" placeholder="" name="search" />
+                <button><i class="fa fa-search font-size18"> </i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
-			<section class="text-center">
-				<img src="images/slider/rev/shop/landing.png">
-			</section>
-			<!-- Page Title
+      <section class="text-center">
+        <img src="images/slider/rev/shop/landing.png" />
+      </section>
+      <!-- Page Title
 				============================================= -->
-			<!-- <section id="page-title">
+      <!-- <section id="page-title">
 				<div class="container clearfix">
 					<h1>My Account</h1>
 					<ol class="breadcrumb">
@@ -467,618 +536,984 @@
 				</div>
 				
 				</section> --><!-- #page-title end -->
-			<!-- Content
+      <!-- Content
 				============================================= -->
-			<section id="content">
-				<div class="content-wrap" >
-					<div class="container clearfix">
+      <section id="content">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="text-center text-underline">
+                    <h1 class="violet-color">
+                      Create a Photo Book in 3 easy steps
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-					<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="text-center text-underline"><h1 class="violet-color">Create a Photo Book in 3 easy steps</h1></div>
-						</div>
-					</div>
-				</div>
+            <div class="row margin-bottom20">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/37.png" />
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h3 class="margin-bottom0 violet-color">Steps - 1</h3>
+                    <h4 class="font-weight500 violet-color margin-bottom10">
+                      Choose method of customization
+                    </h4>
+                    <p class="violet-color font-size13">
+                      (either select your favourite template or start with a
+                      blank book or hire a designer)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/38.png" />
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h3 class="margin-bottom0 violet-color">Steps - 2</h3>
+                    <h4 class="font-weight500 violet-color">
+                      Upload Images & explore your creativity through our online
+                      editor
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/39.png" />
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h3 class="margin-bottom0 violet-color">Steps - 3</h3>
+                    <h4 class="font-weight500 violet-color">
+                      Once design is finalized, choose product specifications &
+                      confirm order
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-					<div class="row margin-bottom20">
-						<div class="col-lg-2">
-							<img src="images/37.png">
-						</div>
-						<div class="col-lg-2">
-							<h3 class="margin-bottom0 violet-color">Steps - 1</h3><h4 class="font-weight500 violet-color margin-bottom10">Choose method of customization</h4><p class="violet-color font-size13">(either select your favourite template or start with a blank book or hire a designer)</p>
-						</div>
-						<div class="col-lg-2">
-							<img src="images/38.png">
-						</div>
-						<div class="col-lg-2">
-							<h3 class="margin-bottom0 violet-color">Steps - 2</h3><h4 class="font-weight500 violet-color">Upload Images & explore your creativity through our online editor</h4>
-						</div>
-						<div class="col-lg-2">
-							<img src="images/39.png">
-						</div>
-						<div class="col-lg-2">
-							<h3 class="margin-bottom0 violet-color">Steps - 3</h3><h4 class="font-weight500 violet-color">Once design is finalized, choose product specifications & confirm order</h4>
-						</div>
-						</div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center video-container-element">
+                  <img src="images/41.png" class="height-100" />
+                </div>
+              </div>
+            </div>
 
-					</div>
+            <div class="container" class="below-video-container-element">
+              <div class="row p-0 align-items-stretch">
+                <div class="col-lg-4">
+                  <div>
+                    <img
+                      src="images/42.png"
+                      class="column-element-image-style"
+                    />
+                  </div>
+                  <div
+                    class="text-center mb-5 shop-button p-2 column-element-text-style"
+                  >
+                    <a href="#" class="text-white">Designs Made for You</a>
+                  </div>
+                  <p class="produst-landing-p">
+                    Pick from our wide collection of professionally designed
+                    templates & save yourself from exhausting your time and
+                    creativity.
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <div>
+                    <img
+                      src="images/43.png"
+                      class="column-element-image-style"
+                    />
+                  </div>
+                  <div
+                    class="text-center mb-5 shop-button p-2 column-element-text-style"
+                  >
+                    <a href="#" class="text-white"
+                      >Personalisation with our online editor</a
+                    >
+                  </div>
+                  <p class="produst-landing-p">
+                    Bring out the creative genius in you by using our online
+                    editor & surprise us with your original designs.
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <div>
+                    <img
+                      src="images/44.png"
+                      class="column-element-image-style"
+                    />
+                  </div>
+                  <div
+                    class="text-center mb-5 shop-button p-2 column-element-text-style"
+                  >
+                    <a href="#" class="text-white">Hire a Designer</a>
+                  </div>
+                  <p class="produst-landing-p">
+                    Want to place the order in a rush ? Don't worry, you can
+                    simply dump the pictures, texts & design brief to us & we
+                    will amaze your with expert designs.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 text-center video-container-element">
-								<img src="images/41.png" class="height-100">
-							</div>
-						</div>
-					</div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="text-center landing-get-started-element">
+                    <a href="#"
+                      ><span class="button-less-padding">GET STARTED</span></a
+                    >
+                  </div>
+                  <h3 class="text-center pt-3 mb-0 red-color1">
+                    Design Templates for every occasion
+                  </h3>
+                  <p class="text-center red-color1">
+                    Enjot professionally designed photobooks with our library of
+                    creative templates.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-						<div class="container" class="below-video-container-element">
-							<div class="row p-0 align-items-stretch">
-								<div class="col-lg-4">
-									<div><img src="images/42.png" class="column-element-image-style"></div>
-									<div class="text-center mb-5 shop-button p-2 column-element-text-style">
-										<a href="#" class="text-white">Designs Made for You</a>
-									</div>
-									<p class="produst-landing-p">Pick from our wide collection of professionally designed templates & save yourself from exhausting your time and creativity.</p>
-								</div>
-								<div class="col-lg-4">
-									<div><img src="images/43.png" class="column-element-image-style"></div>
-									<div class="text-center mb-5 shop-button p-2 column-element-text-style">
-										<a href="#" class="text-white">Personalisation with our online editor</a>
-									</div>
-									<p class="produst-landing-p">Bring out the creative genius in you by using our online editor & surprise us with your original designs.</p>
-								</div>
-								<div class="col-lg-4">
-									<div><img src="images/44.png" class="column-element-image-style"></div>
-									<div class="text-center mb-5 shop-button p-2 column-element-text-style">
-										<a href="#" class="text-white">Hire a Designer</a>
-									</div>
-									<p class="produst-landing-p">Want to place the order in a rush ? Don't worry, you can simply dump the pictures, texts & design brief to us & we will amaze your with expert designs.</p>
-								</div>
-							</div>
-						</div>
+            <div class="container">
+              <div class="container">
+                <div class="row p-0 align-items-stretch">
+                  <div class="col-lg-4 mb-5">
+                    <div class="category-product">
+                      <div class="shop-section">
+                        <img src="images/46.png" />
+                      </div>
+                      <div class="detail-section">
+                        <h4
+                          class="product-heading text-white mb-0 text-center p-3"
+                        >
+                          TRAVEL
+                        </h4>
+                        <div class="category-detail">
+                          <h4
+                            class="text-underline text-aliign-center red-color1 margin-bottom0"
+                          >
+                            TRAVEL
+                          </h4>
+                          <p>
+                            Experience the thrill and calmness of your travel
+                            memories and feel the vibe your favourite
+                            destinations in Travel Special Photo Album Themes
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-5">
+                    <div class="category-product">
+                      <div class="shop-section">
+                        <img src="images/47.png" />
+                      </div>
+                      <div class="detail-section">
+                        <h4
+                          class="product-heading text-white mb-0 text-center p-3"
+                        >
+                          LOVE
+                        </h4>
+                        <div class="category-detail">
+                          <h4
+                            class="text-underline text-aliign-center red-color1 margin-bottom0"
+                          >
+                            LOVE
+                          </h4>
+                          <p>
+                            Experience the thrill and calmness of your love
+                            memories and feel the vibe your favourite moments in
+                            Love Special Photo Album Themes
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-5">
+                    <div class="category-product">
+                      <div class="shop-section">
+                        <img src="images/48.png" />
+                      </div>
+                      <div class="detail-section">
+                        <h4
+                          class="product-heading text-white mb-0 text-center p-3"
+                        >
+                          FAMILY
+                        </h4>
+                        <div class="category-detail">
+                          <h4
+                            class="text-underline text-aliign-center red-color1 margin-bottom0"
+                          >
+                            FAMILY
+                          </h4>
+                          <p>
+                            Experience the thrill and calmness of your family
+                            memories and feel the vibe your favourite glimpse in
+                            Family Special Photo Album Themes
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-					<div class="text-center landing-get-started-element">
-					<a href="#"><span class="button-less-padding">GET STARTED</span></a>
-				</div>
-				<h3 class="text-center pt-3 mb-0 red-color1">Design Templates for every occasion</h3>
-				<p class="text-center red-color1">Enjot professionally designed photobooks with our library of creative templates.</p>
-				</div>
-			</div>
-					</div>
+              <div class="container margin-bottom-15">
+                <div class="row p-0 align-items-stretch">
+                  <div class="col-lg-4 mb-5">
+                    <div class="category-product">
+                      <div class="shop-section">
+                        <img src="images/49.png" />
+                      </div>
+                      <div class="detail-section">
+                        <h4
+                          class="product-heading text-white mb-0 text-center p-3"
+                        >
+                          BIRTHDAY
+                        </h4>
+                        <div class="category-detail">
+                          <h4
+                            class="text-underline text-aliign-center red-color1 margin-bottom0"
+                          >
+                            BIRTHDAY
+                          </h4>
+                          <p>
+                            Experience the thrill and calmness of your birthday
+                            memories and feel the vibe your special moments in
+                            Birthday Special Photo Album Themes
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-5">
+                    <div class="category-product">
+                      <div class="shop-section">
+                        <img src="images/50.png" />
+                      </div>
+                      <div class="detail-section">
+                        <h4
+                          class="product-heading text-white mb-0 text-center p-3"
+                        >
+                          PORTFOLIO
+                        </h4>
+                        <div class="category-detail">
+                          <h4
+                            class="text-underline text-aliign-center red-color1 margin-bottom0"
+                          >
+                            PORTFOLIO
+                          </h4>
+                          <p>
+                            Experience the thrill and calmness of your memories
+                            and feel the vibe your favourite shots in Portfolio
+                            Special Photo Album Themes
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-5">
+                    <div class="category-product">
+                      <div class="shop-section">
+                        <img src="images/51.png" />
+                      </div>
+                      <div class="detail-section">
+                        <h4
+                          class="product-heading text-white mb-0 text-center p-3"
+                        >
+                          WEDDING
+                        </h4>
+                        <div class="category-detail">
+                          <h4
+                            class="text-underline text-aliign-center red-color1 margin-bottom0"
+                          >
+                            WEDDING
+                          </h4>
+                          <p>
+                            Experience the thrill and calmness of your wedding
+                            memories and feel the vibe your favourite glimpse in
+                            Wedding Special Photo Album Themes
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-					<div class="container">
-						<div class="container">
-							<div class="row p-0 align-items-stretch">
-								<div class="col-lg-4 mb-5  ">
-									<div class="category-product">
-										<div class="shop-section" ><img src="images/46.png"></div>
-										<div class="detail-section">
-											<h4 class="product-heading text-white mb-0 text-center p-3">TRAVEL</h4>
-											<div class="category-detail">
-												<h4 class="text-underline text-aliign-center red-color1 margin-bottom0">TRAVEL</h4>
-													<p>Experience the thrill and calmness of your travel memories and feel the vibe your favourite destinations in Travel Special Photo Album Themes
-												</p>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="col-lg-4 mb-5  ">
-									<div class="category-product">
-										<div class="shop-section" ><img src="images/47.png"></div>
-										<div class="detail-section">
-											<h4 class="product-heading text-white mb-0 text-center p-3">LOVE</h4>
-											<div class="category-detail">
-												<h4 class="text-underline text-aliign-center red-color1 margin-bottom0">LOVE</h4>
-													<p>Experience the thrill and calmness of your love memories and feel the vibe your favourite moments in Love Special Photo Album Themes
-												</p>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="col-lg-4 mb-5  ">
-									<div class="category-product">
-										<div class="shop-section" ><img src="images/48.png"></div>
-										<div class="detail-section">
-											<h4 class="product-heading text-white mb-0 text-center p-3">FAMILY</h4>
-											<div class="category-detail">
-												<h4 class="text-underline text-aliign-center red-color1 margin-bottom0">FAMILY</h4>
-													<p>Experience the thrill and calmness of your family memories and feel the vibe your favourite glimpse in Family Special Photo Album Themes
-												</p>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-
-						<div class="container margin-bottom-15">
-							<div class="row p-0 align-items-stretch">
-								<div class="col-lg-4 mb-5  ">
-									<div class="category-product">
-										<div class="shop-section" ><img src="images/49.png"></div>
-										<div class="detail-section">
-											<h4 class="product-heading text-white mb-0 text-center p-3">BIRTHDAY</h4>
-											<div class="category-detail">
-												<h4 class="text-underline text-aliign-center red-color1 margin-bottom0">BIRTHDAY</h4>
-													<p>Experience the thrill and calmness of your birthday memories and feel the vibe your special moments in Birthday Special Photo Album Themes
-												</p>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="col-lg-4 mb-5  ">
-									<div class="category-product">
-										<div class="shop-section" ><img src="images/50.png"></div>
-										<div class="detail-section">
-											<h4 class="product-heading text-white mb-0 text-center p-3">PORTFOLIO</h4>
-											<div class="category-detail">
-												<h4 class="text-underline text-aliign-center red-color1 margin-bottom0">PORTFOLIO</h4>
-													<p>Experience the thrill and calmness of your memories and feel the vibe your favourite shots in Portfolio Special Photo Album Themes
-												</p>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="col-lg-4 mb-5  ">
-									<div class="category-product">
-										<div class="shop-section" ><img src="images/51.png"></div>
-										<div class="detail-section">
-											<h4 class="product-heading text-white mb-0 text-center p-3">WEDDING</h4>
-											<div class="category-detail">
-												<h4 class="text-underline text-aliign-center red-color1 margin-bottom0">WEDDING</h4>
-													<p>Experience the thrill and calmness of your wedding memories and feel the vibe your favourite glimpse in Wedding Special Photo Album Themes
-												</p>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-
-<div class="container">
-	<div class="row">
-		<div class="text-center landing-get-started-element">
-		<span class="button-less-padding-red">BROWSE DESIGNS</span>
-		</div>
-	</div>
-</div>
-				<!-- Our Works
+            <div class="container">
+              <div class="row">
+                <div class="text-center landing-get-started-element">
+                  <span class="button-less-padding-red">BROWSE DESIGNS</span>
+                </div>
+              </div>
+            </div>
+            <!-- Our Works
 				============================================= -->
-				<div class="container">
-				<div class="section bg-transparent mb-0 padding-top0-buttom0 margin-top20">
-					<div class="container margin-bottom-60">
-						<div class="heading-block center border-0 margin-bottom5" data-heading="O">
-							<h3 class="nott ls0 light-blue-color font-weight500">It's All in the Details</h3>
-						</div>
+            <div class="container">
+              <div
+                class="section bg-transparent mb-0 padding-top0-buttom0 margin-top20"
+              >
+                <div class="container margin-bottom-60">
+                  <div
+                    class="heading-block center border-0 margin-bottom5"
+                    data-heading="O"
+                  >
+                    <h3 class="nott ls0 light-blue-color font-weight500">
+                      It's All in the Details
+                    </h3>
+                  </div>
 
-						<div class="grid-filter-wrap">
-							<!-- Grid Filter
+                  <div class="grid-filter-wrap">
+                    <!-- Grid Filter
 							============================================= -->
-							<ul class="grid-filter style-2 mx-auto" data-container="#portfolio">
+                    <ul
+                      class="grid-filter style-2 mx-auto"
+                      data-container="#portfolio"
+                    >
+                      <li class="activeFilter text-underline font-weight600">
+                        <a
+                          href="#"
+                          class="light-blue-color"
+                          data-filter=".pf-paper"
+                          >PAPER</a
+                        >
+                      </li>
+                      <li class="text-underline font-weight600">
+                        <a
+                          href="#"
+                          class="light-blue-color"
+                          data-filter=".pf-lamination"
+                          >LAMINATION</a
+                        >
+                      </li>
+                      <li class="text-underline font-weight600">
+                        <a
+                          href="#"
+                          class="light-blue-color"
+                          data-filter=".pf-binding"
+                          >BINDING</a
+                        >
+                      </li>
+                      <li class="text-underline font-weight600">
+                        <a
+                          href="#"
+                          class="light-blue-color"
+                          data-filter=".pf-cover"
+                          >COVER</a
+                        >
+                      </li>
+                    </ul>
+                    <!-- .grid-filter end -->
+                  </div>
+                </div>
 
-								<li class="activeFilter text-underline font-weight600"><a href="#" class="light-blue-color" data-filter=".pf-paper">PAPER</a></li>
-								<li class="text-underline font-weight600"><a href="#" class="light-blue-color" data-filter=".pf-lamination">LAMINATION</a></li>
-								<li class="text-underline font-weight600"><a href="#" class="light-blue-color" data-filter=".pf-binding">BINDING</a></li>
-								<li class="text-underline font-weight600"><a href="#" class="light-blue-color" data-filter=".pf-cover">COVER</a></li>
-							</ul><!-- .grid-filter end -->
-						</div>
-					</div>
-
-					<!-- Portfolio Items
+                <!-- Portfolio Items
 					============================================= -->
-					<div id="portfolio" class="portfolio row grid-container no-gutters">
+                <div
+                  id="portfolio"
+                  class="portfolio row grid-container no-gutters"
+                >
+                  <article
+                    class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-paper"
+                  >
+                    <div class="grid-inner">
+                      <div class="portfolio-image padding-all25">
+                        <a href="#"><img src="images/52.png" /></a>
+                        <p class="text-center font-weight500">
+                          <a href="#" class="black-color">Art Paper</a>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
 
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-paper">
-							<div class="grid-inner">
-								<div class="portfolio-image padding-all25">
-									<a href="#"><img src="images/52.png"></a>
-									<p class="text-center font-weight500"><a href="#" class="black-color">Art Paper</a></p>
-								</div>
-							</div>
-						</article>
+                  <article
+                    class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-lamination"
+                  >
+                    <div class="grid-inner">
+                      <div class="portfolio-image padding-all25">
+                        <a href="#"><img src="images/53.png" /></a>
+                        <p class="text-center font-weight500">
+                          <a href="#" class="black-color">Non Tearable Paper</a>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
 
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-lamination">
-							<div class="grid-inner">
-								<div class="portfolio-image padding-all25">
-									<a href="#"><img src="images/53.png"></a>
-									<p class="text-center font-weight500"><a href="#" class="black-color">Non Tearable Paper</a></p>
-								</div>
-							</div>
-						</article>
+                  <article
+                    class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-binding"
+                  >
+                    <div class="grid-inner">
+                      <div class="portfolio-image padding-all25">
+                        <a href="#"><img src="images/54.png" /></a>
+                        <p class="text-center font-weight500">
+                          <a href="#" class="black-color"
+                            >Non Tearable Silver</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </article>
 
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-binding">
-							<div class="grid-inner">
-								<div class="portfolio-image padding-all25">
-									<a href="#"><img src="images/54.png"></a>
-									<p class="text-center font-weight500"><a href="#" class="black-color">Non Tearable Silver</a></p>
-								</div>
-							</div>
-						</article>
+                  <article
+                    class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-icons pf-cover"
+                  >
+                    <div class="grid-inner">
+                      <div class="portfolio-image padding-all25">
+                        <a href="#"><img src="images/55.png" /></a>
+                        <p class="text-center font-weight500">
+                          <a href="#" class="black-color">Non Tearable Gold</a>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <!-- #portfolio end -->
+              </div>
+            </div>
 
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-icons pf-cover">
-							<div class="grid-inner">
-								<div class="portfolio-image padding-all25">
-									<a href="#"><img src="images/55.png"></a>
-									<p class="text-center font-weight500"><a href="#" class="black-color">Non Tearable Gold</a></p>
-								</div>
-							</div>
-						</article>
+            <div class="container">
+              <div class="row margin-bottom25">
+                <div class="text-center landing-get-started-element">
+                  <a href="#"
+                    ><span class="button-less-padding-light-blue"
+                      >VIEW ALL SIZES AND PRICES</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="container margin-bottom40">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h1 class="margin-bottom0 black-color">FREE DIGITAL ALBUM</h1>
+                  <h3 class="text-underline font-weight500 margin-bottom10">
+                    Because memories are meant to be shared
+                  </h3>
+                  <p class="font-size20">
+                    While you wait for your album to be made, don't let the
+                    excitement fade away. Get a FREE digital copy of the album
+                    instantly after design finalization and share it with your
+                    loved ones to your heart's satisfaction. Memories are not
+                    created in isolation and therefore, should not recalled
+                    alone. Make your loved ones a part of your memories and
+                    witness your happiness get amplified.
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"
+                    ><img src="images/56.png" class="border-radius10"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mb-5">
+                  <div class="border-radius-5 shop-community-bg-color">
+                    <div class="text-center">
+                      <h2
+                        class="text-black font-size-50 font-weight-400 mb-0 shop-community-element"
+                      >
+                        Shop for Community Member built designs
+                      </h2>
 
-					</div><!-- #portfolio end -->
-				</div>
-			</div>
+                      <p class="mb-0">
+                        Are you great with building stuff? Add your product to
+                        our inventory and help others!
+                      </p>
+                    </div>
+                    <div
+                      id="oc-images"
+                      class="owl-carousel image-carousel carousel-widget mb-3 p-4"
+                      data-items-xs="2"
+                      data-items-sm="3"
+                      data-items-lg="4"
+                      data-items-xl="5"
+                    >
+                      <div class="oc-item">
+                        <a href="#"><img src="images/5.png" alt="Image 1" /></a>
+                      </div>
+                      <div class="oc-item">
+                        <a href="#"><img src="images/6.png" alt="Image 2" /></a>
+                      </div>
+                      <div class="oc-item">
+                        <a href="#"><img src="images/7.png" alt="Image 3" /></a>
+                      </div>
+                      <div class="oc-item">
+                        <a href="#"><img src="images/8.png" alt="Image 4" /></a>
+                      </div>
+                      <div class="oc-item">
+                        <a href="#"><img src="images/9.png" alt="Image 5" /></a>
+                      </div>
+                    </div>
+                    <p class="text-center pb-4 mb-0">
+                      <a class="shop-community-explore-btn">EXPLORE NOW</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div
+                id="oc-testi"
+                class="owl-carousel testimonials-carousel carousel-widget"
+                data-margin="20"
+                data-items-sm="1"
+                data-items-md="2"
+                data-items-xl="3"
+              >
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/1.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <div class="testi-stars mb-4 text-right">
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                      </div>
+                      <p>
+                        Incidunt deleniti blanditiis quas aperiam recusandae
+                        consequatur ullam quibusdam cum libero illo rerum
+                        repellendus!
+                      </p>
+                      <div class="testi-meta">
+                        John Doe
+                        <span>XYZ Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/2.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <div class="testi-stars mb-4 text-right">
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                      </div>
+                      <p>
+                        Incidunt deleniti blanditiis quas aperiam recusandae
+                        consequatur ullam quibusdam cum libero illo rerum
+                        repellendus!
+                      </p>
+                      <div class="testi-meta">
+                        Collis Ta'eed
+                        <span>Envato Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/7.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <div class="testi-stars mb-4 text-right">
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                      </div>
+                      <p>
+                        Incidunt deleniti blanditiis quas aperiam recusandae
+                        consequatur ullam quibusdam cum libero illo rerum
+                        repellendus!
+                      </p>
+                      <div class="testi-meta">
+                        Mary Jane
+                        <span>Google Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/3.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <div class="testi-stars mb-4">
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                      </div>
+                      <p>
+                        Incidunt deleniti blanditiis quas aperiam recusandae
+                        consequatur ullam quibusdam cum libero illo rerum
+                        repellendus!
+                      </p>
+                      <div class="testi-meta">
+                        Steve Jobs
+                        <span>Apple Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/4.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <div class="testi-stars mb-4">
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                        <i class="icon-star3"></i>
+                      </div>
+                      <p>
+                        Incidunt deleniti blanditiis quas aperiam recusandae
+                        consequatur ullam quibusdam cum libero illo rerum
+                        repellendus!
+                      </p>
+                      <div class="testi-meta">
+                        Jamie Morrison
+                        <span>Adobe Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="center mt-3 mb-3">
+              Rated 4.5/5 based on<span class="text-purple">
+                <u>4000 reviews</u></span
+              >. Showing only 4 & 5 star reviews
+            </p>
+            <div class="container">
+              <div class="row pt-3 media-coverage-bg-color">
+                <div class="col-md-24 mx-auto">
+                  <h2>Media Coverage</h2>
+                </div>
+              </div>
 
-<div class="container">
-	<div class="row margin-bottom25">
-		<div class="text-center landing-get-started-element">
-		<a href="#"><span class="button-less-padding-light-blue">VIEW ALL SIZES AND PRICES</span></a>
-		</div>
-	</div>
-</div>
-	<div class="container margin-bottom40">
-		<div class="row">
-			<div class="col-lg-8">
-				<h1 class="margin-bottom0 black-color">FREE DIGITAL ALBUM</h1>
-					<h3 class="text-underline font-weight500 margin-bottom10">Because memories are meant to be shared</h3>
-					<p class="font-size20">While you wait for your album to be made, don't let the excitement fade away. Get a FREE digital copy of the album instantly after design finalization and share it with your loved ones to your heart's satisfaction. Memories are not created in isolation and therefore, should not recalled alone. Make your loved ones a part of your memories and witness your happiness get amplified.</p>
-					</div>
-				<div class="col-lg-4">
-				<a href="#"><img src="images/56.png" class="border-radius10"></a>
-			</div>
-			</div>
-			</div>
-			<div class="container">
-							<div class="row">
-								<div class="col-lg-12  mb-5" >
-									<div class="border-radius-5 shop-community-bg-color">
-										
-									
-										<div class=" text-center">
-											<h2 class="text-black font-size-50 font-weight-400 mb-0 shop-community-element">Shop for Community Member built designs</h2>
-											
-											<p class="mb-0">Are you great with building stuff? Add your product to our inventory and help others!</p>
-										</div>
-										<div id="oc-images" class="owl-carousel image-carousel carousel-widget mb-3 p-4" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="5">
-											<div class="oc-item">
-												<a href="#"><img src="images/5.png" alt="Image 1"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/6.png" alt="Image 2"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/7.png" alt="Image 3"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/8.png" alt="Image 4"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/9.png" alt="Image 5"></a>
-											</div>
-										</div>
-										<p class="text-center pb-4 mb-0" >
-											<a class="shop-community-explore-btn">EXPLORE NOW</a>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="container">
-							
-						
-						<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget" data-margin="20" data-items-sm="1" data-items-md="2" data-items-xl="3">
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4 text-right">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											John Doe
-											<span>XYZ Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4 text-right">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Collis Ta'eed
-											<span>Envato Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/7.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4 text-right">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Mary Jane
-											<span>Google Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Steve Jobs
-											<span>Apple Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/4.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<div class="testi-stars mb-4">
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-										</div>
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											Jamie Morrison
-											<span>Adobe Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						</div>
-						<p class="center mt-3 mb-3">Rated 4.5/5 based on<span class="text-purple"> <u>4000 reviews</u></span>. Showing only 4 & 5 star reviews</p>
-						<div class="container">
-						<div class="row pt-3 media-coverage-bg-color">
-							<div class="col-md-24 mx-auto">
-								<h2>Media Coverage</h2>
-							</div>
-						</div>
-						
-						<div class="row p-0 align-items-stretch media-coverage-bg-color">
-										<div id="oc-images" class="owl-carousel image-carousel carousel-widget mb-3 p-4 padding-top0-buttom0" data-items-xs="2" data-items-sm="3" data-items-lg="3" data-items-xl="3">
-											<div class="oc-item">
-												<a href="#"><img src="images/hindustantimes.png" alt="Image 1"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/firstpost.png" alt="Image 2"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/indiatoday.png" alt="Image 3"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/hindustantimes.png" alt="Image 4"></a>
-											</div>
-											<div class="oc-item">
-												<a href="#"><img src="images/firstpost.png" alt="Image 5"></a>
-											</div>
-										</div>
-						</div>
-					</div>
-					</div>
-				</div>
-			</section>
-			<!-- #content end -->
-			<!-- Footer
+              <div class="row p-0 align-items-stretch media-coverage-bg-color">
+                <div
+                  id="oc-images"
+                  class="owl-carousel image-carousel carousel-widget mb-3 p-4 padding-top0-buttom0"
+                  data-items-xs="2"
+                  data-items-sm="3"
+                  data-items-lg="3"
+                  data-items-xl="3"
+                >
+                  <div class="oc-item">
+                    <a href="#"
+                      ><img
+                        class="media-partner-logo"
+                        src="images/hindustantimes.png"
+                        alt="Image 1"
+                    /></a>
+                  </div>
+                  <div class="oc-item">
+                    <a href="#"
+                      ><img
+                        class="media-partner-logo"
+                        src="images/firstpost.png"
+                        alt="Image 2"
+                    /></a>
+                  </div>
+                  <div class="oc-item">
+                    <a href="#"
+                      ><img
+                        class="media-partner-logo"
+                        src="images/indiatoday.png"
+                        alt="Image 3"
+                    /></a>
+                  </div>
+                  <div class="oc-item">
+                    <a href="#"
+                      ><img
+                        class="media-partner-logo"
+                        src="images/hindustantimes.png"
+                        alt="Image 4"
+                    /></a>
+                  </div>
+                  <div class="oc-item">
+                    <a href="#"
+                      ><img src="images/firstpost.png" alt="Image 5"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #content end -->
+      <!-- Footer
 				============================================= -->
-			<footer id="footer" class="dark">
-				<div class="container">
-					<!-- Footer Widgets
+      <footer id="footer" class="dark">
+        <div class="container">
+          <!-- Footer Widgets
 						============================================= -->
-					<div class="footer-widgets-wrap">
-						<div class="row col-mb-50">
-							<div class="col-lg-8">
-								<div class="row col-mb-50">
-									<div class="col-md-3">
-										<div class="widget widget_links clearfix">
-											<h4>Contact Us</h4>
-											<p>Have questions?<br>Send your queries to<br>XXX@XXX.com<br>We'll be glad to help.</p>
-											<ul>
-												<li><a href="#">Help</a></li>
-												<li><a href="#">Returns</a></li>
-												<li><a href="#">Shipping</a></li>
-												<li><a href="#">Deals</a></li>
-												<li><a href="#">Carrers</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="widget widget_links clearfix">
-											<h4>Products</h4>
-											<ul>
-												<li><a href="#">Photo Books</a></li>
-												<li><a href="#">Baby Photo Books</a></li>
-												<li><a href="#">Travel Photo Books</a></li>
-												<li><a href="#">Home Decor</a></li>
-												<li><a href="#">Calendars</a></li>
-												<li><a href="#">Cards</a></li>
-												<li><a href="#">Designer Collections</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="widget widget_links clearfix">
-											<h4>Policy</h4>
-											<ul>
-												<li><a href="#">Return Policy</a></li>
-												<li><a href="#">Terms of Services</a></li>
-												<li><a href="#">Privacy Policy</a></li>
-												<li><a href="#">Security</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="widget widget_links clearfix">
-											<h4>Programs</h4>
-											<ul>
-												<li><a href="#">For Business</a></li>
-												<li><a href="#">For Schools</a></li>
-												<li><a href="#">School Yearbooks</a></li>
-												<li><a href="#">Affiliate Programme</a></li>
-												<li><a href="#">Volume Discount</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-md-3 col-lg-6">
-										<div class="widget clearfix">
-											<h4>Get offers and news</h4>
-											<div class="widget-subscribe-form-result"></div>
-											<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-												<div class="input-group mx-auto">
-													<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Email">
-													<div class="input-group-append padding-left20">
-														<button class="btn btn-success footer-submit-button" type="submit">Submit</button>
-													</div>
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="row col-mb-50">
-									<div class="col-md-4 col-lg-12">
-										<div class="widget clearfix margin-bottom-20">
-											<div class="row">
-												<div class="col-lg-6 bottommargin-sm">
-													<div class="widget widget clearfix">
-														<h4>Connect with us</h4>
-														<a href="#" class="social-icon si-dark si-rounded si-facebook"><i class="icon-facebook"></i><i class="icon-facebook"></i></a>
-														<a href="#" class="social-icon si-dark si-rounded si-twitter"><i class="icon-twitter"></i><i class="icon-twitter"></i></a>
-														<a href="#" class="social-icon si-dark si-rounded si-instagram"><i class="icon-instagram"></i><i class="icon-instagram"></i></a>
-														<a href="#" class="social-icon si-dark si-rounded si-pinterest"><i class="icon-pinterest"></i><i class="icon-pinterest"></i></a>
-														<p class="footer-phone-element"><i class="icon-call"> 84390XXXXX</i></p>
-													</div>
-												</div>
-												<div class="col-lg-6 bottommargin-sm">
-													<div class="widget widget_links clearfix">
-														<h4>About us</h4>
-														<ul>
-															<li><a href="#">About us</a></li>
-															<li><a href="#">Carrers</a></li>
-															<li><a href="#">Press Releases</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-5 col-lg-12">
-										<div class="widget clearfix margin-bottom-20">
-											<div class="widget row">
-												<h4>Our Sister Brand: <img src="images/presto-logo.png" alt="Presto Logo"></h4>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 col-lg-12">
-										<div class="widget clearfix">
-											<h4>Refer a friend and get Rs 100 in your Wallet</h4>
-											<div class="widget-subscribe-form-result"></div>
-											<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-												<div class="input-group mx-auto">
-													<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Email">
-													<div class="input-group-append padding-left20">
-														<button class="btn btn-success footer-submit-button" type="submit">Submit</button>
-													</div>
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-24 mx-auto">IDORA Book &copy; 2021 - Present.<br>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- .footer-widgets-wrap end -->
-				</div>
-			</footer>
-			<!-- #footer end -->
-		</div>
-		<!-- #wrapper end -->
-		<!-- Go To Top
+          <div class="footer-widgets-wrap">
+            <div class="row col-mb-50">
+              <div class="col-lg-8">
+                <div class="row col-mb-50">
+                  <div class="col-md-3">
+                    <div class="widget widget_links clearfix">
+                      <h4>Contact Us</h4>
+                      <p>
+                        Have questions?<br />Send your queries to<br />XXX@XXX.com<br />We'll
+                        be glad to help.
+                      </p>
+                      <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">Carrers</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="widget widget_links clearfix">
+                      <h4>Products</h4>
+                      <ul>
+                        <li><a href="#">Photo Books</a></li>
+                        <li><a href="#">Baby Photo Books</a></li>
+                        <li><a href="#">Travel Photo Books</a></li>
+                        <li><a href="#">Home Decor</a></li>
+                        <li><a href="#">Calendars</a></li>
+                        <li><a href="#">Cards</a></li>
+                        <li><a href="#">Designer Collections</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="widget widget_links clearfix">
+                      <h4>Policy</h4>
+                      <ul>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="widget widget_links clearfix">
+                      <h4>Programs</h4>
+                      <ul>
+                        <li><a href="#">For Business</a></li>
+                        <li><a href="#">For Schools</a></li>
+                        <li><a href="#">School Yearbooks</a></li>
+                        <li><a href="#">Affiliate Programme</a></li>
+                        <li><a href="#">Volume Discount</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-lg-6">
+                    <div class="widget clearfix">
+                      <h4>Get offers and news</h4>
+                      <div class="widget-subscribe-form-result"></div>
+                      <form
+                        id="widget-subscribe-form"
+                        action="include/subscribe.php"
+                        method="post"
+                        class="mb-0"
+                      >
+                        <div class="input-group mx-auto">
+                          <input
+                            type="email"
+                            id="widget-subscribe-form-email"
+                            name="widget-subscribe-form-email"
+                            class="form-control required email"
+                            placeholder="Email"
+                          />
+                          <div class="input-group-append padding-left20">
+                            <button
+                              class="btn btn-success footer-submit-button"
+                              type="submit"
+                            >
+                              Submit
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="row col-mb-50">
+                  <div class="col-md-4 col-lg-12">
+                    <div class="widget clearfix margin-bottom-20">
+                      <div class="row">
+                        <div class="col-lg-6 bottommargin-sm">
+                          <div class="widget widget clearfix">
+                            <h4>Connect with us</h4>
+                            <a
+                              href="#"
+                              class="social-icon si-dark si-rounded si-facebook"
+                              ><i class="icon-facebook"></i
+                              ><i class="icon-facebook"></i
+                            ></a>
+                            <a
+                              href="#"
+                              class="social-icon si-dark si-rounded si-twitter"
+                              ><i class="icon-twitter"></i
+                              ><i class="icon-twitter"></i
+                            ></a>
+                            <a
+                              href="#"
+                              class="social-icon si-dark si-rounded si-instagram"
+                              ><i class="icon-instagram"></i
+                              ><i class="icon-instagram"></i
+                            ></a>
+                            <a
+                              href="#"
+                              class="social-icon si-dark si-rounded si-pinterest"
+                              ><i class="icon-pinterest"></i
+                              ><i class="icon-pinterest"></i
+                            ></a>
+                            <p class="footer-phone-element">
+                              <i class="icon-call"> 84390XXXXX</i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 bottommargin-sm">
+                          <div class="widget widget_links clearfix">
+                            <h4>About us</h4>
+                            <ul>
+                              <li><a href="#">About us</a></li>
+                              <li><a href="#">Carrers</a></li>
+                              <li><a href="#">Press Releases</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-lg-12">
+                    <div class="widget clearfix margin-bottom-20">
+                      <div class="widget row">
+                        <h4>
+                          Our Sister Brand:
+                          <img src="images/presto-logo.png" alt="Presto Logo" />
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-lg-12">
+                    <div class="widget clearfix">
+                      <h4>Refer a friend and get Rs 100 in your Wallet</h4>
+                      <div class="widget-subscribe-form-result"></div>
+                      <form
+                        id="widget-subscribe-form"
+                        action="include/subscribe.php"
+                        method="post"
+                        class="mb-0"
+                      >
+                        <div class="input-group mx-auto">
+                          <input
+                            type="email"
+                            id="widget-subscribe-form-email"
+                            name="widget-subscribe-form-email"
+                            class="form-control required email"
+                            placeholder="Email"
+                          />
+                          <div class="input-group-append padding-left20">
+                            <button
+                              class="btn btn-success footer-submit-button"
+                              type="submit"
+                            >
+                              Submit
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-24 mx-auto">
+                    IDORA Book &copy; 2021 - Present.<br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .footer-widgets-wrap end -->
+        </div>
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+    <!-- Go To Top
 			============================================= -->
-		<div id="gotoTop" class="icon-angle-up"></div>
-		<!-- JavaScripts
+    <div id="gotoTop" class="icon-angle-up"></div>
+    <!-- JavaScripts
 			============================================= -->
-		<script src="js/jquery.js"></script>
-		<script src="js/plugins.min.js"></script>
-		<!-- Footer Scripts
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <!-- Footer Scripts
 			============================================= -->
-		<script src="js/functions.js"></script>
-		<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-		<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-		<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-		<!-- <script>
+    <script src="js/functions.js"></script>
+    <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+    <script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+    <!-- <script>
 			var tpj=jQuery;
 			tpj.noConflict();
 			var $ = jQuery.noConflict();
@@ -1163,5 +1598,5 @@
 			}
 			});
 		</script> -->
-	</body>
+  </body>
 </html>

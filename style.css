@@ -12377,7 +12377,11 @@ blockquote.float-right {
 }
 
 .owl-carousel .owl-item img {
-	transform-style: preserve-3d
+	transform-style: preserve-3d;
+}
+
+.media-company-logo{
+	max-width: 50%;
 }
 
 .owl-carousel .owl-video-wrapper {
@@ -12427,7 +12431,11 @@ blockquote.float-right {
 	-o-transition: opacity .4s ease;
 	transition: opacity .4s ease
 }
-
+.media-logo-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .owl-carousel .owl-video-frame {
 	position: relative;
 	z-index: 1;
@@ -12533,6 +12541,7 @@ blockquote.float-right {
 .owl-carousel .owl-dots .owl-dot:hover {
 	opacity: 1
 }
+
 
 .flip-card {
 	-webkit-transform-style: preserve-3d;
@@ -13071,6 +13080,15 @@ h3.titular-title {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto
+}
+
+.text-center>img{
+	min-height: 80%;
+}
+
+.media-partner-logo{
+	width: 60% !important;
+	margin: 0 auto;
 }
 
 .heading-block h1+span {
@@ -16475,6 +16493,10 @@ label.radio {
 			font-weight: 400;
 			letter-spacing: 3px;
 			font-family: 'Poppins', sans-serif;
+		}
+
+		.feature-img {
+			max-width: 50%;
 		}
 .tp-video-play-button { display: none !important; }
 
