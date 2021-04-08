@@ -3018,7 +3018,6 @@ html[xmlns] .slider-wrap {
 	display: block;
 	max-width: 100%;
 	max-height: 100%;
-	height: 100px
 }
 
 .header-size-sm #header-wrap #logo img {
@@ -10948,10 +10947,12 @@ body:not(.device-touch) .social-icon i {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin: 0;
-	border-bottom: 1px solid #ddd;
+	/*margin: 0;*/
+	border-bottom: 1px solid transparent;
 	list-style: none;
-	padding: 0 15px
+	padding: 0 15px;
+	    width: 50%;
+    margin: 20px auto;
 }
 
 .tab-nav li {
@@ -10959,11 +10960,12 @@ body:not(.device-touch) .social-icon i {
 	flex: 0 0 auto;
 	width: auto;
 	max-width: 100%;
-	border: 1px solid #ddd;
+	border: 1px solid transparent;
 	border-bottom: 0;
 	border-left: 0;
-	height: 41px;
-	text-align: center
+	/*height: 41px;*/
+	text-align: center;
+
 }
 
 .tabs-justify .tab-nav li {
@@ -10974,16 +10976,16 @@ body:not(.device-touch) .social-icon i {
 }
 
 .tab-nav li:first-child {
-	border-left: 1px solid #ddd
+	border-left: 1px solid transparent
 }
 
 .tab-nav li a {
 	display: block;
 	padding: 0 15px;
 	color: #444;
-	height: 40px;
+	/*height: 40px;*/
 	line-height: 40px;
-	background-color: #f2f2f2;
+	background-color: transparent;
 	font-weight: 700
 }
 
@@ -10996,7 +10998,7 @@ body:not(.device-touch) .social-icon i {
 .tab-nav li.ui-tabs-active a {
 	position: relative;
 	top: 1px;
-	background-color: #fff
+	background-color: transparent;
 }
 
 .tabs-alt .tab-nav li {
@@ -11008,11 +11010,11 @@ body:not(.device-touch) .social-icon i {
 }
 
 .tabs-alt .tab-nav li a {
-	background-color: #fff
+	background-color: transparent;
 }
 
 .tabs-alt .tab-nav li.ui-tabs-active a {
-	border: 1px solid #ddd;
+	border: 1px solid transparent;
 	border-bottom: 0
 }
 
@@ -12382,6 +12384,7 @@ blockquote.float-right {
 
 .media-company-logo{
 	max-width: 50%;
+	margin: 0 auto
 }
 
 .owl-carousel .owl-video-wrapper {
@@ -16436,8 +16439,8 @@ label.radio {
 	line-height: 1.3
 }
 
-.font-size-50 {
-	font-size: 50px
+.font-size-30 {
+	font-size: 30px
 }
 .font-size-40 {
 	font-size: 40px
@@ -16496,7 +16499,20 @@ label.radio {
 		}
 
 		.feature-img {
-			max-width: 50%;
+			max-width: 80%;
+			margin: 0 auto
+		}
+		.feature-text{
+			padding: 0 3rem
+		}
+		@media only screen and (max-width: 767px){
+			.feature-img {
+				max-width: 100%;
+				margin: 0 auto
+			}
+			.feature-text{
+				padding: 0rem
+			}
 		}
 .tp-video-play-button { display: none !important; }
 
@@ -17197,16 +17213,16 @@ background-color: #5b2c8a;
 	color: #000;
 }
 .book-shape-element1{
-	max-width: 30%;
-	margin-left: 15px;
+	max-width: 70%;
+	margin-bottom: 15px;
 }
 .book-shape-element2{
-	max-width: 20%;
-	margin-left: 15px;
+	max-width: 70%;
+	margin-bottom: 15px;
 }
 .book-shape-element3{
-	max-width: 20%;
-	margin-left: 15px;
+	max-width: 70%;
+	margin-bottom: 15px;
 }
 .view-more-ajax-button{
 	border-radius: 5px;
