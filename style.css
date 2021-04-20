@@ -16758,6 +16758,9 @@ text-align:center;
 .margin-right20{
 	margin-right: 20px;
 }
+.margin-right30{
+	margin-right: 30px;
+}
 .margin-right40{
 	margin-right: 40px;
 }
@@ -17228,4 +17231,115 @@ background-color: #5b2c8a;
 	border-radius: 5px;
 	padding: 10px 20px;
 	margin-bottom: 40px;
+}
+
+/* MY PHOTOS PAGE CSS */
+#top-bar-one {
+	position: relative;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    background-color: #f6dede;
+    color: #465659;
+
+}
+#top-bar-two {
+	position: relative;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    color: #0e2f47;
+
+}
+.discount-btn {
+    padding: 0.0rem 0.2rem !important;
+    font-size: 0.9rem !important;
+}
+.my-photos-font {
+	font-weight: 400 !important;
+}
+.add-photos-btn {
+	font-weight: 600;
+	background-color: #5b2c8a;
+	float: right;
+	color: #fff;
+}
+.add-photos-btn:hover {
+    background-color: #5b2c8a;
+    color: #fff;
+}
+.dpla-inln-flx {
+	display: inline-flex !important;
+}
+.my-photos-footer {
+	background-color: #eef3f3;
+}
+.album-name-mdl {
+	height: 56px;
+}
+.new-albumname-modal-btn {
+	font-weight: 600;
+	background-color: #5b2c8a;
+}
+.new-albumname-modal-btn:hover {
+    background-color: #5b2c8a;
+}
+.main-modal-wd {
+	width: 80%;
+}
+.main-modal-pd {
+    -webkit-animation: mx-xm .25s forwards;
+    animation: mx-xm .25s forwards;
+    left: 0;
+    top: 0;
+}
+.main-modal-ps {
+    position: absolute;
+}
+
+.no-wrap-mdl {
+	flex-wrap: inherit;
+}
+.flt-rgt {
+	float: right;
+}
+.no-log-import-alert {
+	font-size: 25px;
+	font-weight: 400;
+}
+.fb-import-bton {
+	background-color: #3c5a98;
+	color: #fff;
+}
+.fb-import-bton:hover {
+	background-color: #3c5a98;
+	color: #fff;
+}
+.insta-import-bton {
+	background-color: #da3174;
+	color: #fff;
+}
+.insta-import-bton:hover {
+	background-color: #da3174;
+	color: #fff;
+}
+.width100 {
+	width: 100%;
+}
+.mgn-tb10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.dash2-border {
+    border: 2px dashed #dee2e6 !important;
+    padding: 50px 100px;
+}
+
+@media (min-width: 992px) {
+.modal-wd80 {
+    max-width: 80%;
+}
+}
+.mgn-tl-0 {
+	margin-left: 0px;
+	margin-top: 0px;
 }
