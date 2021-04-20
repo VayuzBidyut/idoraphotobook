@@ -17343,3 +17343,16 @@ background-color: #5b2c8a;
 	margin-left: 0px;
 	margin-top: 0px;
 }
+
+
+
+.add-photo-div{
+float: right;
+padding-top:1.5rem;
+}
+.social-text{
+	position: absolute;
+    font-size: 13px;
+    top: 35px;
+    left: 7px;
+}
