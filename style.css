@@ -16733,6 +16733,9 @@ text-align:center;
 .margin-bottom15{
 	margin-bottom: 15px;
 }
+.margin-bottom10{
+	margin-bottom: 10px;
+}
 .margin-bottom5{
 	margin-bottom: 5px;
 }
@@ -17322,6 +17325,24 @@ background-color: #5b2c8a;
 	background-color: #da3174;
 	color: #fff;
 }
+
+.gphotos-import-bton {
+	background-color: #eef3f3;
+	color: #000;
+}
+.gphotos-import-bton:hover {
+	background-color: #eef3f3;
+	color: #000;
+}
+.smugmug-import-bton {
+	background-color: #eef3f3;
+	color: #000;
+}
+.smugmug-import-bton:hover {
+	background-color: #eef3f3;
+	color: #000;
+}
+
 .width100 {
 	width: 100%;
 }
@@ -17372,4 +17393,17 @@ padding-top:1.5rem;
 	display: inline-flex;
 	width: 100%;
 }
+}
+.social-icon-nobdr {
+    margin: 0 20px 5px 0;
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    line-height: 38px!important;
+    color: #555;
+    text-shadow: none;
+    overflow: hidden;
+}
+.height20 {
+	height: 20px;
 }
