@@ -17356,3 +17356,23 @@ padding-top:1.5rem;
     top: 35px;
     left: 7px;
 }
+.album-name-field {
+	border: none;
+    border-bottom: 1px solid #ddd;
+}
+.padding-zero {
+	padding: 0;
+}
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+@media (max-width: 575.98px) {
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+.dpla-inln-flx1 {
+	display: inline-flex;
+	width: 100%;
+}
+}
