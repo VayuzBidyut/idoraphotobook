@@ -17363,11 +17363,8 @@ padding-top:1.5rem;
 .padding-zero {
 	padding: 0;
 }
-.overflow-y-scroll {
-	overflow-y: scroll;
-}
 
-@media (max-width: 575.98px) {
+@media only screen and (max-width: 767px) {
 .overflow-y-scroll {
 	overflow-y: scroll;
 }
