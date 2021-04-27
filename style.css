@@ -17444,6 +17444,24 @@ form.top-search-form {
 .product-info-column {
 	padding-left: 15px;
 }
+
+
+
+.imght70 {
+	height: 70px;
+}
+.colwd33 {
+	width: 33.3%;
+}
+.colwd50 {
+	width: 50%;
+}
+.icon-question-circle {
+    position: absolute;
+    right: 50% !important;
+    top: 0px !important;
+}
+
 }
 /*HEADER LOGO RESIZING ENDS*/
 
