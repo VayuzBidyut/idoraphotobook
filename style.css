@@ -17456,9 +17456,14 @@ form.top-search-form {
 .colwd50 {
 	width: 50%;
 }
-.icon-question-circle {
+.iqc1 {
     position: absolute;
-    right: 50% !important;
+    right: 60% !important;
+    top: 0px !important;
+}
+.iqc2 {
+    position: absolute;
+    right: 78% !important;
     top: 0px !important;
 }
 
