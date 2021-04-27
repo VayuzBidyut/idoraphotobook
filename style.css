@@ -17407,3 +17407,45 @@ padding-top:1.5rem;
 .height20 {
 	height: 20px;
 }
+
+/*HEADER LOGO RESIZING STARTS*/
+@media only screen and (max-width: 991px) {
+
+div#logo {
+	margin-bottom: -70px;
+	z-index: 1;
+}
+#logo img {
+	max-height: 60%;
+	margin-top: 15px;
+}
+	a.retina-logo {
+	height: 90px;
+}
+div#header-wrap {
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+li.menu-item.current.sub-menu {
+    margin-top: 20px;
+}
+}
+/*HEADER LOGO RESIZING ENDS*/
+
+
+/*FOOTER RESIZING STARTS*/
+@media only screen and (max-width: 768px) {
+
+div.footer-widgets-wrap {
+    padding-top: 18px !important;
+
+}
+
+.pdb20 {
+	padding-bottom: 20px !important;
+}
+.bottommargin-sm {
+	margin-bottom: 10px !important;
+}
+}
+/*FOOTER RESIZING ENDS*/
