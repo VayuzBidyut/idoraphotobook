@@ -17433,7 +17433,10 @@ li.menu-item.current.sub-menu {
 }
 input.form-control {
 	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 5px;
+}
+.top-search-form input {
+    font-size: 15px;
 }
 form.top-search-form {
 	position: inherit;
