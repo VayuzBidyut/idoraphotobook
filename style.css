@@ -1191,7 +1191,9 @@ a.h-text-dark:hover {
 .mx-6 {
 	margin-left: 5rem!important
 }
-
+.ml-15 {
+	margin-left: 15px !important
+}
 .p-6 {
 	padding: 5rem!important
 }
@@ -17423,11 +17425,21 @@ div#logo {
 	height: 90px;
 }
 div#header-wrap {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	background-color: #fff;
 }
 li.menu-item.current.sub-menu {
     margin-top: 20px;
+}
+input.form-control {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+form.top-search-form {
+	position: inherit;
+}
+.product-info-column {
+	padding-left: 15px;
 }
 }
 /*HEADER LOGO RESIZING ENDS*/
@@ -17446,6 +17458,21 @@ div.footer-widgets-wrap {
 }
 .bottommargin-sm {
 	margin-bottom: 10px !important;
+}
+}
+/*FOOTER RESIZING ENDS*/
+
+/*FOOTER RESIZING STARTS*/
+@media only screen and (max-width: 768px) {
+
+.steps-image-fx {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+.fs15 {
+	font-size: 15px !important;
 }
 }
 /*FOOTER RESIZING ENDS*/
