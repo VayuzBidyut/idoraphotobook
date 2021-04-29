@@ -16447,6 +16447,9 @@ label.radio {
 .font-size-40 {
 	font-size: 40px
 }
+.font-size-26 {
+	font-size: 26px
+}
 .font-weight-400{
 	font-weight: 400
 }
@@ -17238,6 +17241,15 @@ background-color: #5b2c8a;
 	margin-bottom: 40px;
 }
 
+
+/*SIGNIN-SIGNUP PAGE CSS STARTS*/
+.signin-image{
+	width: 86%;
+	position: absolute;
+	bottom: 0px;
+}
+/*SIGNIN-SIGNUP PAGE CSS ENDS*/
+
 /* MY PHOTOS PAGE CSS */
 #top-bar-one {
 	position: relative;
@@ -17444,9 +17456,12 @@ form.top-search-form {
 .product-info-column {
 	padding-left: 15px;
 }
-
-
-
+.header-misc {
+	margin-right: 0px !important;
+	width: 50px !important;
+	height: 50px !important;
+	margin-left: 0px !important;
+}
 .imght70 {
 	height: 70px;
 }
@@ -17466,7 +17481,9 @@ form.top-search-form {
     right: 78% !important;
     top: 0px !important;
 }
-
+.mb20 {
+	margin-bottom: 20px !important;
+}
 }
 /*HEADER LOGO RESIZING ENDS*/
 
@@ -17500,5 +17517,51 @@ div.footer-widgets-wrap {
 .fs15 {
 	font-size: 15px !important;
 }
+.signin-image {
+    width: 100%;
+    position: inherit;
+    bottom: 0px;
+}
+.mlr15 {
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}
+.pdtp0 {
+	padding-top: 0px !important;
+}
+.fsz22 {
+	font-size: 22px !important;
+}
 }
 /*FOOTER RESIZING ENDS*/
+
+/*OTHER CSS STARTS*/
+@media only screen and (max-width: 407px) {
+
+.fsz16 {
+	font-size: 16px !important;
+}
+
+}
+/*OTHER CSS ENDS*/
+
+
+/*///*/
+@media (min-width: 768px) {
+
+.mxwd75 {
+    max-width: 75% !important;
+}
+}
+/*///*/
+
+
+/*///*/
+@media (min-width: 992px) {
+ 
+ .mxwd90 {
+	max-width: 90%;
+	font-size: 14px;
+}
+}
+/*///*/
