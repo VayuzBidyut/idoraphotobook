@@ -17251,6 +17251,9 @@ background-color: #5b2c8a;
 /*SIGNIN-SIGNUP PAGE CSS ENDS*/
 
 /* MY PHOTOS PAGE CSS */
+.imght70 {
+	height: 70px;
+}
 #top-bar-one {
 	position: relative;
     border-bottom: 1px solid #eee;
@@ -17462,9 +17465,9 @@ form.top-search-form {
 	height: 50px !important;
 	margin-left: 0px !important;
 }
-.imght70 {
+/*.imght70 {
 	height: 70px;
-}
+}*/
 .colwd33 {
 	width: 33.3%;
 }
