@@ -12440,8 +12440,14 @@ blockquote.float-right {
 	transform-style: preserve-3d;
 }
 
+@media only screen and (max-width: 768px) {
+	.media-company-logo {
+		max-width: 100% !important;
+	}
+	}
+
 .media-company-logo{
-	max-width: 50%;
+	max-width: 80%;
 	margin: 0 auto
 }
 
