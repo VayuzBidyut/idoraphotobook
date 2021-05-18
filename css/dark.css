@@ -1747,7 +1747,7 @@ body #side-panel.dark {
 .dark .form-control:not(.not-dark):focus,
 .dark .sm-form-control:not(.not-dark):active,
 .dark .sm-form-control:not(.not-dark):focus {
-	background-color: rgba(0,0,0,0.3);
+	background-color:#fff;
 	border-color: rgba(255,255,255,0.25) !important;
 }
 

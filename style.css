@@ -52,7 +52,7 @@ ul {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 a {
@@ -61,7 +61,12 @@ a {
 }
 
 a:hover {
-	color: #222
+	color: #222;
+}
+
+.vlt-btn:hover {
+		color: #fff;
+		background-color: #5d418a;
 }
 
 a img {
@@ -88,7 +93,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 h5,
@@ -168,7 +173,7 @@ ul {
 }
 
 small {
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 @media (max-width:1200px) {
@@ -387,15 +392,15 @@ span.middot {
 }
 
 .font-body {
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .font-primary {
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .font-secondary {
-	font-family: 'PT Serif', serif
+	font-family: 'MyriadPro', sans-serif;
 }
 
 .font-weight-extralight {
@@ -1187,6 +1192,10 @@ a.h-text-dark:hover {
 	margin-bottom: 5rem!important
 }
 
+.mlr-0 {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
 .ml-6,
 .mx-6 {
 	margin-left: 5rem!important
@@ -1213,10 +1222,37 @@ a.h-text-dark:hover {
 	padding-bottom: 5rem!important
 }
 
+.pb-40 {
+	padding-bottom: 40px !important
+}
+
 .pl-6,
 .px-6 {
 	padding-left: 5rem!important
 }
+
+.pl-0 {
+	padding-left: 0px!important
+}
+
+.pr-0 {
+	padding-right: 0px!important
+}
+.pl-5 {
+	padding-left: 5px!important
+}
+
+.pr-5 {
+	padding-right: 5px!important
+}
+.pl-20 {
+	padding-left: 20px!important
+}
+
+.pr-20 {
+	padding-right: 20px!important
+}
+
 
 @media (min-width:576px) {
 	.m-sm-6 {
@@ -3104,6 +3140,20 @@ only screen and (min-resolution:2dppx) {
 	color: #1abc9c
 }
 
+
+.header-extras li:hover>.he-text {
+	background-color: #f9f9f9;
+	padding-left: 18px;
+}
+
+.header-extras li .he-text a:hover {
+	color: #1abc9c !important;
+	font-weight: bold;
+}
+
+
+
+
 .primary-menu {
 	display: -ms-flexbox;
 	display: flex;
@@ -3148,8 +3198,8 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .svg-trigger {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 	transition: transform .4s;
@@ -3265,7 +3315,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	font-weight: 400;
 	color: #666;
 	letter-spacing: 0;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .sub-menu-container .menu-item:hover>.menu-link {
@@ -6156,6 +6206,12 @@ body:not(.device-touch) .grid-container {
 	margin: 0
 }
 
+
+.grid-filter.style-2 li.activeFilter a:hover {
+	color: #fff;
+	background-color: #5d418a;
+}
+
 .grid-filter.style-3 li a {
 	border: 1px solid transparent
 }
@@ -7017,7 +7073,7 @@ body:not(.device-touch) .entry-link {
 .entry-link span {
 	display: block;
 	margin-top: 5px;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	text-transform: none;
@@ -7032,7 +7088,7 @@ body:not(.device-touch) .entry-link {
 
 .entry blockquote p {
 	font-weight: 400;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic
 }
 
@@ -7158,7 +7214,7 @@ body:not(.device-touch) .entry-link {
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 @media (min-width:992px) {
@@ -7200,7 +7256,7 @@ body:not(.device-touch) .entry-link {
 	display: inline-block;
 	border-bottom: 1px solid #1abc9c;
 	padding: 0 2px;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic
 }
 
@@ -7366,7 +7422,7 @@ body:not(.device-touch) .entry-link {
 .comment-content .comment-author span a {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic;
 	color: #aaa
 }
@@ -7482,7 +7538,7 @@ img.alignright {
 .wp-caption {
 	text-align: center;
 	margin: 10px 20px 13px 20px;
-	font-family: Lato, Georgia, "Times New Roman", Times, serif;
+	font-family: MyriadPro, sans-serif;
 	font-style: italic
 }
 
@@ -8217,7 +8273,7 @@ body:not(.device-touch) .button {
 	font-size: 1.25rem;
 	height: auto;
 	line-height: 1;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .button.button-desc span {
@@ -8226,7 +8282,7 @@ body:not(.device-touch) .button {
 	font-size: .875rem;
 	font-weight: 400;
 	letter-spacing: 1px;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic;
 	text-transform: none
 }
@@ -9286,7 +9342,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .fbox-center.fbox-italic p {
 	font-style: italic;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .fbox-bg.fbox-center {
@@ -11490,7 +11546,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .testi-content p {
 	margin-bottom: 0;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic
 }
 
@@ -11693,7 +11749,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	display: block;
 	color: #1abc9c;
 	font-weight: 400;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic;
 	font-size: 1rem;
 	margin-top: 5px
@@ -11935,7 +11991,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 .counter {
 	font-size: 42px;
 	font-weight: 600;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .counter.counter-small {
@@ -12066,7 +12122,7 @@ body:not(.device-touch) .rounded-skill {
 
 .skills li .progress-percent .counter {
 	font-weight: 400;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .progress-percent::after,
@@ -13237,7 +13293,7 @@ h3.titular-title {
 	display: block;
 	margin: 0 0 5px;
 	font-size: 1rem;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	color: #999
@@ -14358,7 +14414,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 13px;
 	font-weight: 700;
 	letter-spacing: 2px;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .nav-tree li i {
@@ -14397,7 +14453,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 12px;
 	padding: 6px 0;
 	letter-spacing: 1px;
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .nav-tree ul ul a i.icon-angle-down {
@@ -14425,7 +14481,7 @@ body:not(.device-touch) .tagcloud a {
 	line-height: 1;
 	font-size: 80px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .15);
-	font-family: MyriadPro, sans-serif
+	font-family: MyriadPro, sans-serif;
 }
 
 .wedding-head .and,
@@ -14451,14 +14507,14 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 56px;
 	font-weight: 400;
 	font-style: italic;
-	font-family: 'PT Serif', serif;
+	font-family: 'MyriadPro', sans-serif;
 	text-transform: none
 }
 
 .wedding-head .and {
 	margin: 0;
 	font-size: 200px;
-	font-family: 'Times New Roman', serif
+	font-family: 'MyriadPro', sans-serif;
 }
 
 .pagination.pagination-circle .page-item .page-link {
@@ -16440,6 +16496,9 @@ label.radio {
 	font-size: 20px;
 	line-height: 1.3
 }
+.font-size-24p{
+	font-size: 24px;
+}
 
 .font-size-30 {
 	font-size: 30px
@@ -16484,14 +16543,14 @@ label.radio {
 			font-size: 58px;
 			font-weight: 700;
 			letter-spacing: 1px;
-			font-family: 'Poppins', sans-serif;
+			font-family: 'MyriadPro', sans-serif;
 			padding: 15px 20px;
 			border-top: 2px solid #FFF;
 			border-bottom: 2px solid #FFF;
 		}
 .revo-slider-desc-text {
 			font-size: 20px;
-			font-family: 'Lato', sans-serif;
+			font-family: 'MyriadPro', sans-serif;
 			width: 650px;
 			text-align: center;
 			line-height: 1.5;
@@ -16500,7 +16559,7 @@ label.radio {
 			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 3px;
-			font-family: 'Poppins', sans-serif;
+			font-family: 'MyriadPro', sans-serif;
 		}
 
 		.feature-img {
@@ -16510,12 +16569,15 @@ label.radio {
 		.feature-text{
 			padding: 0 3rem
 		}
+		.feature-text-main{
+			padding: 0 4rem
+		}
 		@media only screen and (max-width: 767px){
 			.feature-img {
 				max-width: 100%;
 				margin: 0 auto
 			}
-			.feature-text{
+			.feature-text, .feature-text-main{
 				padding: 0rem
 			}
 		}
@@ -16541,7 +16603,7 @@ label.radio {
 			margin-bottom: 0px; 
 			font-weight: 400; 
 			color: #fff;    
-			font-size: 60px;
+			font-size: 40px;
 			line-height: 1.2;
 		}
 .shop-section{
@@ -17093,6 +17155,9 @@ background-color: #5b2c8a;
 .padding-top5{
 	padding-top: 5px;
 }
+.padding-top24{
+	padding-top: 24px;
+}
 .padding-all50{
 	padding: 50px;
 }
@@ -17112,7 +17177,7 @@ background-color: #5b2c8a;
 .get-started-div-element{
 	border-radius: 5px;
 	padding: 10px 20px;
-	margin-bottom: : 40px auto;
+	margin-bottom: 40px auto;
 }
 .home-get-started-btn-element{
 	color: #fff;
@@ -17224,15 +17289,15 @@ background-color: #5b2c8a;
 	color: #000;
 }
 .book-shape-element1{
-	max-width: 70%;
+	max-width: 60%;
 	margin-bottom: 15px;
 }
 .book-shape-element2{
-	max-width: 70%;
+	max-width: 60%;
 	margin-bottom: 15px;
 }
 .book-shape-element3{
-	max-width: 70%;
+	max-width: 60%;
 	margin-bottom: 15px;
 }
 .view-more-ajax-button{
@@ -17546,6 +17611,10 @@ div.footer-widgets-wrap {
 }
 
 }
+.ref-a-friend {
+	letter-spacing: 0px !important;
+	font-size: 14px !important;
+}
 /*OTHER CSS ENDS*/
 
 
@@ -17567,4 +17636,55 @@ div.footer-widgets-wrap {
 	font-size: 14px;
 }
 }
+.read-more-tag {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+@media (max-width:454px) {
+	.section-1-headng {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 507px) {
+	.key-ftrs {
+		font-size: 18px;
+		}
+	}
+@media screen and (max-width: 1440px) and (min-width: 992px) {
+	.key-ftrs {
+		  font-size: 24px;
+		}
+	  }
+
+	  .img-hover-zoom {
+		background: #0000000d;
+		height: 300px;
+		overflow: hidden;
+		border-radius: .5em;
+		border: 5px solid rgba(255, 255, 255, .05);
+	  }
+  
+	  .img-hover-zoom--empty {
+		background-color: rgba(255, 255, 255, .1);
+		border-width: 0;
+	  }
+  
+	  .img-hover-zoom:not(.img-hover-zoom--empty):hover {
+		filter: drop-shadow(0 0 10px rgba(0,0,0,.3));
+	  }
+  
+	  .img-hover-zoom-title {
+		text-align: center;
+	  }
+  
+	  .img-hover-zoom--basic img {
+		transition: transform .5s ease;
+	  }
+  
+	  .img-hover-zoom--basic:hover img {
+		transform: scale(1.5);
+	  }
 /*///*/
