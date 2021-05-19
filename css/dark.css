@@ -1025,7 +1025,7 @@ body #side-panel.dark {
 
 .dark .toggle-bg .toggle-header,
 .dark .accordion-bg .accordion-header {
-	background-color: rgba(0,0,0,0.2);
+	background-color: #0000000a;
 }
 
 .dark .toggle-border,
