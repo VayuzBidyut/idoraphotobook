@@ -1020,7 +1020,7 @@ body #side-panel.dark {
 
 .dark .toggle-header,
 .dark .accordion-header {
-	color: #EEE;
+	color: #000;
 }
 
 .dark .toggle-bg .toggle-header,
