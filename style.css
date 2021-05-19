@@ -66,7 +66,7 @@ a:hover {
 
 .vlt-btn:hover {
 		color: #fff;
-		background-color: #5d418a;
+		background-color: #6200ff !important;
 }
 
 a img {
@@ -425,7 +425,9 @@ span.middot {
 .font-normal {
 	font-style: normal!important
 }
-
+.min-height-auto {
+	min-height: auto !important;
+}
 .bgicon {
 	display: block;
 	position: absolute;
@@ -3150,12 +3152,12 @@ only screen and (min-resolution:2dppx) {
 
 .header-extras li:hover>.he-text {
 	background-color: #f9f9f9;
-	padding-left: 18px;
+	/* padding-left: 18px; */
 }
 
 .header-extras li .he-text a:hover {
 	color: #1abc9c !important;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 
@@ -16771,6 +16773,18 @@ text-align:center;
     border-bottom-width: 0px;
     font-size: 20px
 }
+.button-less-padding:hover{
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #6200ff;
+	font-weight:600;
+	border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    font-size: 20px
+}
 .button-less-padding-red{
 	border-radius: 5px;
 	padding: 10px 20px;
@@ -16882,6 +16896,9 @@ text-align:center;
 }
 .margin-bottom-20{
 	margin-bottom: -20px;
+}
+.margin-bottom40{
+	margin-bottom: 40px;
 }
 .margin-bottom-60{
 	margin-bottom: -60px;
@@ -17313,8 +17330,20 @@ background-color: #5b2c8a;
 	border-radius: 5px;
 	margin-left: 20px;
 }
+.start-book-button:hover{
+	background-color: #6200ff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
 .hire-designer-button{
 	background-color: #5b2c8a;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-left: 40px
+}
+.hire-designer-button:hover{
+	background-color: #6200ff;
 	padding: 5px 10px;
 	border-radius: 5px;
 	margin-left: 40px
@@ -17689,6 +17718,12 @@ div.footer-widgets-wrap {
 	margin-bottom: 5px;
 	font-weight: bold;
 }
+.border0 {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
 
 @media (max-width:454px) {
 	.section-1-headng {
@@ -17708,11 +17743,11 @@ div.footer-widgets-wrap {
 	  }
 
 	  .img-hover-zoom {
-		background: #0000000d;
-		height: 300px;
+		/* background: #0000000d; */
+		/* height: 300px; */
 		overflow: hidden;
 		border-radius: .5em;
-		border: 5px solid rgba(255, 255, 255, .05);
+		/* border: 5px solid rgba(255, 255, 255, .05); */
 	  }
   
 	  .img-hover-zoom--empty {
