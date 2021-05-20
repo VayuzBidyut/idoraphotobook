@@ -16701,6 +16701,7 @@ opacity: 1;
 
 .category-product {
 transition: all 2s;
+cursor: pointer;
 }
 
 
