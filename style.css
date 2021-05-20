@@ -12547,7 +12547,7 @@ blockquote.float-right {
 }
 
 .owl-carousel.with-carousel-dots .owl-nav [class*=owl-] {
-	margin-top: -38px
+	margin-top: -16px
 }
 
 .owl-carousel-full .owl-nav [class*=owl-],
@@ -16981,21 +16981,22 @@ background-color: #5b2c8a;
     font-size: 20px;
     margin-bottom: 2px !important;
     margin-top: 2px !important;
+    transition: all 0.8s
 }
 
 .item-details-list-button:hover, .item-details-list-button:active{
-	border-radius: 15px;
-	padding: 10px 20px;
+	/*border-radius: 15px;*/
+	/*padding: 10px 20px;*/
 	color: #fff !important;
 	background-color: #5b2c8a;
-	font-weight:600;
-	border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    font-size: 20px;
-    margin-bottom: 2px !important;
-    margin-top: 2px !important;
+	/*font-weight:600;*/
+	/*border-top-width: 0px;*/
+    /*border-left-width: 0px;*/
+    /*border-right-width: 0px;*/
+    /*border-bottom-width: 0px;*/
+    /*font-size: 20px;*/
+    /*margin-bottom: 2px !important;*/
+    /*margin-top: 2px !important;*/
 }
 
 
@@ -17616,12 +17617,12 @@ form.top-search-form {
 }
 .iqc1 {
     position: absolute;
-    right: 60% !important;
+    right: 52% !important;
     top: 0px !important;
 }
 .iqc2 {
     position: absolute;
-    right: 78% !important;
+    right: 75% !important;
     top: 0px !important;
 }
 .mb20 {
