@@ -12579,12 +12579,12 @@ blockquote.float-right {
 	border-radius: 3px 0 0 3px
 }
 
-.owl-carousel:hover .owl-nav [class*=owl-] {
+.owl-carousel .owl-nav [class*=owl-] {
 	opacity: 1;
 	left: -18px
 }
 
-.owl-carousel:hover .owl-nav .owl-next {
+.owl-carousel .owl-nav .owl-next {
 	left: auto;
 	right: -18px
 }
