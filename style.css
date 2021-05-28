@@ -1257,7 +1257,12 @@ a.h-text-dark:hover {
 .pl-20 {
 	padding-left: 20px!important
 }
-
+.pl-16 {
+	padding-left: 16px!important
+}
+.pl-26 {
+	padding-left: 26px!important
+}
 .pr-20 {
 	padding-right: 20px!important
 }
@@ -10846,7 +10851,7 @@ body:not(.device-touch) .social-icon i {
 .toggle {
 	display: block;
 	position: relative;
-	margin: 0 0 20px 0
+	margin: 0 0 5px 0
 }
 
 .accordion-header,
@@ -17035,10 +17040,10 @@ background-color: #5b2c8a;
 }
 
 .preview-box-carousel{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #b5b4b3;
 }
 
@@ -17386,7 +17391,7 @@ background-color: #5b2c8a;
 /*SIGNIN-SIGNUP PAGE CSS STARTS*/
 .signin-image{
 	width: 86%;
-	position: absolute;
+	position: inherit;
 	bottom: 0px;
 }
 /*SIGNIN-SIGNUP PAGE CSS ENDS*/
@@ -17622,7 +17627,27 @@ form.top-search-form {
 }
 .iqc2 {
     position: absolute;
-    right: 75% !important;
+    right: 72% !important;
+    top: 0px !important;
+}
+.iqc3 {
+    position: absolute;
+    right: 68% !important;
+    top: 0px !important;
+}
+.iqc4 {
+    position: absolute;
+    right: 55% !important;
+    top: 0px !important;
+}
+.iqc5 {
+    position: absolute;
+    right: 64% !important;
+    top: 0px !important;
+}
+.iqc6 {
+    position: absolute;
+    right: 67% !important;
     top: 0px !important;
 }
 .mb20 {
@@ -17694,6 +17719,9 @@ div.footer-widgets-wrap {
 	letter-spacing: 0px !important;
 	font-size: 14px !important;
 }
+.distab {
+	display: table !important;
+}
 /*OTHER CSS ENDS*/
 
 
@@ -17719,6 +17747,10 @@ div.footer-widgets-wrap {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	font-weight: bold;
+}
+.mtb5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .border0 {
 	border-top-width: 0px;
