@@ -1257,6 +1257,10 @@ a.h-text-dark:hover {
 .pl-20 {
 	padding-left: 20px!important
 }
+.plr-15 {
+	padding-left: 15px!important;
+	padding-right: 15px !important
+}
 .pl-16 {
 	padding-left: 16px!important
 }
@@ -16623,7 +16627,7 @@ label.radio {
 			margin-bottom: 0px; 
 			font-weight: 400; 
 			color: #fff;    
-			font-size: 40px;
+			font-size: 30px;
 			line-height: 1.2;
 		}
 .shop-section{
@@ -17150,7 +17154,7 @@ background-color: #5b2c8a;
 .produst-landing-p{
 	color: #5b2c8a;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
 }
 .video-container-element{
 	background-color: #efe9f3;
@@ -17620,36 +17624,6 @@ form.top-search-form {
 .colwd50 {
 	width: 50%;
 }
-.iqc1 {
-    position: absolute;
-    right: 52% !important;
-    top: 0px !important;
-}
-.iqc2 {
-    position: absolute;
-    right: 72% !important;
-    top: 0px !important;
-}
-.iqc3 {
-    position: absolute;
-    right: 68% !important;
-    top: 0px !important;
-}
-.iqc4 {
-    position: absolute;
-    right: 55% !important;
-    top: 0px !important;
-}
-.iqc5 {
-    position: absolute;
-    right: 64% !important;
-    top: 0px !important;
-}
-.iqc6 {
-    position: absolute;
-    right: 67% !important;
-    top: 0px !important;
-}
 .mb20 {
 	margin-bottom: 20px !important;
 }
@@ -17776,32 +17750,355 @@ div.footer-widgets-wrap {
 		}
 	  }
 
-	  .img-hover-zoom {
-		/* background: #0000000d; */
-		/* height: 300px; */
-		overflow: hidden;
-		border-radius: .5em;
-		/* border: 5px solid rgba(255, 255, 255, .05); */
-	  }
-  
-	  .img-hover-zoom--empty {
-		background-color: rgba(255, 255, 255, .1);
-		border-width: 0;
-	  }
-  
-	  .img-hover-zoom:not(.img-hover-zoom--empty):hover {
-		filter: drop-shadow(0 0 10px rgba(0,0,0,.3));
-	  }
-  
-	  .img-hover-zoom-title {
-		text-align: center;
-	  }
-  
-	  .img-hover-zoom--basic img {
-		transition: transform .5s ease;
-	  }
-  
-	  .img-hover-zoom--basic:hover img {
-		transform: scale(1.5);
-	  }
+.img-hover-zoom {
+	/* background: #0000000d; */
+	/* height: 300px; */
+	overflow: hidden;
+	border-radius: .5em;
+	/* border: 5px solid rgba(255, 255, 255, .05); */
+	}
+.img-hover-zoom--empty {
+	background-color: rgba(255, 255, 255, .1);
+	border-width: 0;
+	}
+.img-hover-zoom:not(.img-hover-zoom--empty):hover {
+	filter: drop-shadow(0 0 10px rgba(0,0,0,.3));
+	}
+.img-hover-zoom-title {
+	text-align: center;
+	}
+.img-hover-zoom--basic img {
+	transition: transform .5s ease;
+	}
+.img-hover-zoom--basic:hover img {
+	transform: scale(1.5);
+	}
+
+@media only screen and (max-width: 991px) {
+	.iqc1 {
+		position: absolute;
+		right: 47% !important;
+		top: 0px !important;
+		}
+	.iqc2 {
+		position: absolute;
+		right: 67% !important;
+		top: 0px !important;
+		}
+	.iqc3 {
+		position: absolute;
+		right: 63% !important;
+		top: 0px !important;
+		}
+	.iqc4 {
+		position: absolute;
+		right: 50% !important;
+		top: 0px !important;
+		}
+	.iqc5 {
+		position: absolute;
+		right: 59% !important;
+		top: 0px !important;
+		}
+	.iqc6 {
+		position: absolute;
+		right: 62% !important;
+		top: 0px !important;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+		.iqc1 {
+			position: absolute;
+			right: -8% !important;
+			top: 0px !important;
+			}
+		.iqc2 {
+			position: absolute;
+			right: 45% !important;
+			top: 0px !important;
+			}
+		.iqc3 {
+			position: absolute;
+			right: 30% !important;
+			top: 0px !important;
+			}
+		.iqc4 {
+			position: absolute;
+			right: -3% !important;
+			top: 0px !important;
+			}
+		.iqc5 {
+			position: absolute;
+			right: 20% !important;
+			top: 0px !important;
+			}
+		.iqc6 {
+			position: absolute;
+			right: 28% !important;
+			top: 0px !important;
+			}
+		}
+	@media only screen and (min-width: 991px) and (max-width: 1200px) {
+		.iqc1 {
+			position: absolute;
+			right: -10% !important;
+			top: 20px !important;
+			}
+		.iqc2 {
+			position: absolute;
+			right: 35% !important;
+			top: 0px !important;
+			}
+		.iqc3 {
+			position: absolute;
+			right: 18% !important;
+			top: 0px !important;
+			}
+		.iqc4 {
+			position: absolute;
+			right: 5% !important;
+			top: 20px !important;
+			}
+		.iqc5 {
+			position: absolute;
+			right: 5% !important;
+			top: 0px !important;
+			}
+		.iqc6 {
+			position: absolute;
+			right: 15% !important;
+			top: 0px !important;
+			}
+		}
+
+		@media only screen and (min-width: 768px) and (max-width: 991px) {
+			.iqc1 {
+				position: absolute;
+				right: 75% !important;
+				top: 0px !important;
+				}
+			.iqc2 {
+				position: absolute;
+				right: 87% !important;
+				top: 0px !important;
+				}
+			.iqc3 {
+				position: absolute;
+				right: 84% !important;
+				top: 0px !important;
+				}
+			.iqc4 {
+				position: absolute;
+				right: 77% !important;
+				top: 0px !important;
+				}
+			.iqc5 {
+				position: absolute;
+				right: 82% !important;
+				top: 0px !important;
+				}
+			.iqc6 {
+				position: absolute;
+				right: 84% !important;
+				top: 0px !important;
+				}
+			}
+
+	@media only screen and (min-width: 576px) and (max-width: 768px) {
+				.iqc1 {
+					position: absolute;
+					right: 70% !important;
+					top: 0px !important;
+					}
+				.iqc2 {
+					position: absolute;
+					right: 84% !important;
+					top: 0px !important;
+					}
+				.iqc3 {
+					position: absolute;
+					right: 80% !important;
+					top: 0px !important;
+					}
+				.iqc4 {
+					position: absolute;
+					right: 72% !important;
+					top: 0px !important;
+					}
+				.iqc5 {
+					position: absolute;
+					right: 78% !important;
+					top: 0px !important;
+					}
+				.iqc6 {
+					position: absolute;
+					right: 80% !important;
+					top: 0px !important;
+					}
+				}
+
+	@media only screen and (min-width: 520px) and (max-width: 576px) {
+					.iqc1 {
+						position: absolute;
+						right: 70% !important;
+						top: 0px !important;
+						}
+					.iqc2 {
+						position: absolute;
+						right: 84% !important;
+						top: 0px !important;
+						}
+					.iqc3 {
+						position: absolute;
+						right: 80% !important;
+						top: 0px !important;
+						}
+					.iqc4 {
+						position: absolute;
+						right: 72% !important;
+						top: 0px !important;
+						}
+					.iqc5 {
+						position: absolute;
+						right: 78% !important;
+						top: 0px !important;
+						}
+					.iqc6 {
+						position: absolute;
+						right: 80% !important;
+						top: 0px !important;
+						}
+					}
+	
+	@media only screen and (min-width: 450px) and (max-width: 520px) {
+						.iqc1 {
+							position: absolute;
+							right: 64% !important;
+							top: 0px !important;
+							}
+						.iqc2 {
+							position: absolute;
+							right: 81% !important;
+							top: 0px !important;
+							}
+						.iqc3 {
+							position: absolute;
+							right: 77% !important;
+							top: 0px !important;
+							}
+						.iqc4 {
+							position: absolute;
+							right: 66% !important;
+							top: 0px !important;
+							}
+						.iqc5 {
+							position: absolute;
+							right: 74% !important;
+							top: 0px !important;
+							}
+						.iqc6 {
+							position: absolute;
+							right: 76% !important;
+							top: 0px !important;
+							}
+						}
+	@media only screen and (min-width: 407px) and (max-width: 450px) {
+							.iqc1 {
+								position: absolute;
+								right: 60% !important;
+								top: 0px !important;
+								}
+							.iqc2 {
+								position: absolute;
+								right: 79% !important;
+								top: 0px !important;
+								}
+							.iqc3 {
+								position: absolute;
+								right: 74% !important;
+								top: 0px !important;
+								}
+							.iqc4 {
+								position: absolute;
+								right: 62% !important;
+								top: 0px !important;
+								}
+							.iqc5 {
+								position: absolute;
+								right: 70% !important;
+								top: 0px !important;
+								}
+							.iqc6 {
+								position: absolute;
+								right: 73% !important;
+								top: 0px !important;
+								}
+							}
+	@media only screen and (min-width: 357px) and (max-width: 407px) {
+								.iqc1 {
+									position: absolute;
+									right: 53% !important;
+									top: 0px !important;
+									}
+								.iqc2 {
+									position: absolute;
+									right: 74% !important;
+									top: 0px !important;
+									}
+								.iqc3 {
+									position: absolute;
+									right: 70% !important;
+									top: 0px !important;
+									}
+								.iqc4 {
+									position: absolute;
+									right: 56% !important;
+									top: 0px !important;
+									}
+								.iqc5 {
+									position: absolute;
+									right: 65% !important;
+									top: 0px !important;
+									}
+								.iqc6 {
+									position: absolute;
+									right: 68% !important;
+									top: 0px !important;
+									}
+								}
+	
+
+	@media only screen and (min-width: 1440px) {
+			.eq-row-mb {
+				margin-bottom: 94px;
+					}
+			}
+	@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+				.eq-row-mb {
+					margin-bottom: 6px;
+						}
+				}
+	@media only screen and (min-width: 991px) and (max-width: 1200px) {
+					.eq-row-mb {
+						margin-bottom: 27px;
+							}
+					.font-size25 {
+						font-size: 19px;
+					}
+					}
+	@media only screen and (max-width: 991px) {
+						.eq-row-mb {
+							margin-bottom: 27px;
+								}
+						.font-size25 {
+							font-size: 19px;
+						}
+						.bind-memory-element {
+							margin-bottom: 48px;
+						}
+						}
 /*///*/
+
+
+bind-memory-element
