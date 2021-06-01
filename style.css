@@ -18098,6 +18098,26 @@ div.footer-widgets-wrap {
 							margin-bottom: 48px;
 						}
 						}
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+							.sinbtn {
+								margin-left: 0px !important;
+								margin-top: 10px;
+							}
+							.sinbtncnt {
+								padding-left: 17px !important;
+								padding-right: 17px !important;
+							}
+							}
+	@media only screen and (min-width: 205px) and (max-width: 365px) {
+								.sinbtn {
+									margin-left: 0px !important;
+									margin-top: 10px;
+								}
+								.sinbtncnt {
+									padding-left: 17px !important;
+									padding-right: 17px !important;
+								}
+								}
 /*///*/
 
 
