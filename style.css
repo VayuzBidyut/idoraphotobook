@@ -18128,6 +18128,16 @@ div.footer-widgets-wrap {
 										padding-right: 17px !important;
 									}
 									}
+	@media only screen and (min-width: 366px) and (max-width: 382px) {
+										.sinbtn {
+											margin-left: 3px !important;
+											margin-top: 10px;
+										}
+										.sinbtncnt {
+											padding-left: 17px !important;
+											padding-right: 17px !important;
+										}
+										}
 /*///*/
 
 
