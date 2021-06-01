@@ -18108,7 +18108,7 @@ div.footer-widgets-wrap {
 								padding-right: 17px !important;
 							}
 							}
-	@media only screen and (min-width: 205px) and (max-width: 381px) {
+	@media only screen and (min-width: 205px) and (max-width: 355px) {
 								.sinbtn {
 									margin-left: 0px !important;
 									margin-top: 10px;
@@ -18118,6 +18118,16 @@ div.footer-widgets-wrap {
 									padding-right: 17px !important;
 								}
 								}
+	@media only screen and (min-width: 355px) and (max-width: 366px) {
+									.sinbtn {
+										margin-left: 3px !important;
+										margin-top: 10px;
+									}
+									.sinbtncnt {
+										padding-left: 17px !important;
+										padding-right: 17px !important;
+									}
+									}
 /*///*/
 
 
